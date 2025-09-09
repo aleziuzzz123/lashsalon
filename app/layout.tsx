@@ -3,6 +3,7 @@ import "./../styles/globals.css";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import type { ReactNode } from "react";
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Navbar />
         <main className="min-h-[70vh]">{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );

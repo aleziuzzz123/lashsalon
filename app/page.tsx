@@ -29,6 +29,10 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 poster="/images/homepage/video-poster.jpg"
                 controls
+                autoPlay
+                muted
+                loop
+                playsInline
                 preload="metadata"
               >
                 <source src="/videos/02cWMXRt-33883556.mp4" type="video/mp4" />
@@ -145,7 +149,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/classic-extensions.jpg" 
+                  src="/images/services/Extensiones Clásicas.png" 
                   alt="Extensiones Clásicas"
                   className="w-full h-full object-cover"
                 />
@@ -170,7 +174,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/hybrid-extensions.jpg" 
+                  src="/images/services/Extensiones Híbridas.png" 
                   alt="Extensiones Híbridas"
                   className="w-full h-full object-cover"
                 />
@@ -195,7 +199,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/volume-extensions.jpg" 
+                  src="/images/services/Extensiones Volumen.png" 
                   alt="Extensiones Volumen"
                   className="w-full h-full object-cover"
                 />
@@ -220,7 +224,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/mega-volume-extensions.jpg" 
+                  src="/images/services/Extensiones Mega Volumen.png" 
                   alt="Extensiones Mega Volumen"
                   className="w-full h-full object-cover"
                 />
@@ -245,7 +249,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/wet-look-extensions.jpg" 
+                  src="/images/services/Extensiones Wet Look.png" 
                   alt="Extensiones Wet Look"
                   className="w-full h-full object-cover"
                 />
@@ -270,7 +274,7 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
                 <img 
-                  src="/images/services/kim-k-extensions.jpg" 
+                  src="/images/services/Extensiones Kim K.png" 
                   alt="Extensiones Kim K"
                   className="w-full h-full object-cover"
                 />
