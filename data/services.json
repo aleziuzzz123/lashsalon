@@ -1,58 +1,82 @@
 [
   {
     "id": "classic_set",
-    "name": "Full Lashes (Clásico)",
-    "category": "Full Sets",
+    "name": "Extensiones Clásicas",
+    "category": "Extensiones de Pestañas",
     "price_mxn": 650,
-    "duration_min": 120
+    "duration_min": 120,
+    "description": "Extensiones individuales para un look natural y elegante"
   },
   {
     "id": "hybrid_set",
-    "name": "Full Lashes (Híbrido)",
-    "category": "Full Sets",
+    "name": "Extensiones Híbridas",
+    "category": "Extensiones de Pestañas",
     "price_mxn": 690,
-    "duration_min": 130
+    "duration_min": 130,
+    "description": "Combinación perfecta entre clásico y volumen"
   },
   {
     "id": "volume_set",
-    "name": "Full Lashes (Volumen)",
-    "category": "Full Sets",
+    "name": "Extensiones Volumen",
+    "category": "Extensiones de Pestañas",
     "price_mxn": 750,
-    "duration_min": 140
+    "duration_min": 140,
+    "description": "Múltiples extensiones por pestaña natural para máximo impacto"
   },
   {
     "id": "mega_volume",
-    "name": "Full Lashes (Mega Volumen)",
-    "category": "Full Sets",
+    "name": "Extensiones Mega Volumen",
+    "category": "Extensiones de Pestañas",
     "price_mxn": 890,
-    "duration_min": 150
+    "duration_min": 150,
+    "description": "El look más dramático y llamativo"
   },
   {
     "id": "brow_lifting",
-    "name": "Brow Lifting Laminado",
-    "category": "Brow Lifting",
+    "name": "Brow Lifting + Laminado",
+    "category": "Cejas",
     "price_mxn": 500,
-    "duration_min": 60
+    "duration_min": 60,
+    "description": "Cejas perfectas con efecto lifting y laminado"
   },
   {
     "id": "lash_lifting",
     "name": "Lash Lifting",
-    "category": "Lash Lifting",
+    "category": "Lifting de Pestañas",
     "price_mxn": 550,
-    "duration_min": 60
+    "duration_min": 60,
+    "description": "Realza tus pestañas naturales con efecto curvado"
   },
   {
     "id": "lash_lifting_tint",
     "name": "Lash Lifting + Tinte",
-    "category": "Lash Lifting",
+    "category": "Lifting de Pestañas",
     "price_mxn": 650,
-    "duration_min": 75
+    "duration_min": 75,
+    "description": "Lifting con tinte para pestañas más oscuras y definidas"
   },
   {
     "id": "thread_brows",
-    "name": "Depilación con hilo - Cejas",
+    "name": "Depilación con Hilo",
     "category": "Depilación",
     "price_mxn": 150,
-    "duration_min": 20
+    "duration_min": 20,
+    "description": "Técnica tradicional para cejas perfectas"
+  },
+  {
+    "id": "retouch_classic",
+    "name": "Retoque Clásico",
+    "category": "Retoques",
+    "price_mxn": 350,
+    "duration_min": 60,
+    "description": "Mantén tus extensiones perfectas"
+  },
+  {
+    "id": "retouch_volume",
+    "name": "Retoque Volumen",
+    "category": "Retoques",
+    "price_mxn": 400,
+    "duration_min": 75,
+    "description": "Retoque para extensiones de volumen"
   }
 ]

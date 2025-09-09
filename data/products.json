@@ -2,31 +2,64 @@
   {
     "id": "magic_brows",
     "name": "Magic Brows",
-    "price_mxn": 200
+    "price_mxn": 200,
+    "description": "Gel fijador para cejas con efecto natural",
+    "category": "Cuidado de Cejas"
   },
   {
     "id": "magic_liner",
     "name": "Magic Liner",
-    "price_mxn": 250
+    "price_mxn": 250,
+    "description": "Delineador líquido de larga duración",
+    "category": "Maquillaje"
   },
   {
     "id": "brow_brush",
     "name": "Brows Up",
-    "price_mxn": 250
+    "price_mxn": 250,
+    "description": "Cepillo profesional para cejas",
+    "category": "Herramientas"
   },
   {
     "id": "serum_pro",
     "name": "Serum Pro",
-    "price_mxn": 450
+    "price_mxn": 450,
+    "description": "Serum fortalecedor para pestañas naturales",
+    "category": "Cuidado de Pestañas"
   },
   {
     "id": "golden_brush",
     "name": "Golden Brush",
-    "price_mxn": 150
+    "price_mxn": 150,
+    "description": "Cepillo dorado para aplicación profesional",
+    "category": "Herramientas"
   },
   {
     "id": "parche_colageno",
     "name": "Parche de Colágeno",
-    "price_mxn": 30
+    "price_mxn": 30,
+    "description": "Parche hidratante con colágeno",
+    "category": "Cuidado Facial"
+  },
+  {
+    "id": "lash_glue",
+    "name": "Pegamento Profesional",
+    "price_mxn": 180,
+    "description": "Pegamento de larga duración para extensiones",
+    "category": "Profesional"
+  },
+  {
+    "id": "cleanser",
+    "name": "Limpiador Especializado",
+    "price_mxn": 220,
+    "description": "Limpiador suave para extensiones",
+    "category": "Cuidado de Pestañas"
+  },
+  {
+    "id": "oil_free",
+    "name": "Crema Oil-Free",
+    "price_mxn": 280,
+    "description": "Crema hidratante sin aceites",
+    "category": "Cuidado Facial"
   }
 ]
