@@ -3,10 +3,10 @@
   "/api/mp/create-preference/route": "app/api/mp/create-preference/route.js",
   "/api/mp/webhook/route": "app/api/mp/webhook/route.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js",
-  "/book/page": "app/book/page.js",
+  "/services/page": "app/services/page.js",
   "/account/page": "app/account/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/book/page": "app/book/page.js",
   "/shop/page": "app/shop/page.js",
-  "/services/page": "app/services/page.js"
+  "/about/page": "app/about/page.js"
 }
