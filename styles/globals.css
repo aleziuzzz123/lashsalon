@@ -29,3 +29,54 @@ small.helper { @apply text-sm text-warmGray; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* Modal animations */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+}
+
+.modal-enter {
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+.modal-exit {
+  animation: modalFadeOut 0.3s ease-in;
+}
+
+/* Enhanced button styles */
+.btn-outline {
+  @apply border-2 border-gold text-gold hover:bg-gold hover:text-white hover:border-gold transition-all duration-300;
+}
+
+.btn-outline:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(201, 169, 105, 0.3);
+}
+
+/* Card hover effects */
+.card {
+  @apply bg-gradient-to-br from-warmWhite to-softPink backdrop-blur rounded-2xl border border-rose/20 shadow-soft hover:shadow-lg transition-all duration-300;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 169, 105, 0.3);
+}
