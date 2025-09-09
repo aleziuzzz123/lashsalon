@@ -4,9 +4,10 @@
   "/api/mp/webhook/route": "app/api/mp/webhook/route.js",
   "/page": "app/page.js",
   "/services/page": "app/services/page.js",
+  "/about/page": "app/about/page.js",
   "/account/page": "app/account/page.js",
   "/contact/page": "app/contact/page.js",
-  "/book/page": "app/book/page.js",
   "/shop/page": "app/shop/page.js",
-  "/about/page": "app/about/page.js"
+  "/book/page": "app/book/page.js",
+  "/gallery/page": "app/gallery/page.js"
 }

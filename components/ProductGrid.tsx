@@ -2,6 +2,25 @@
 import products from "@/data/products.json";
 import { Sparkles, ShoppingCart } from "lucide-react";
 
+// Function to get the correct image filename for each product
+const getProductImage = (productId: string) => {
+  const imageMap: { [key: string]: string } = {
+    'glue_stop_100gr': 'glue_stop_100gr.webp',
+    'glue_stop_80gr': 'glue_stop_80gr.webp',
+    'glue_sticker': 'glue_sticker.webp',
+    'lash_mascara': 'lash_mascara.webp',
+    'lash_mousse_160ml': 'lash_mousse_160ml.webp',
+    'magic_liner': 'magic_liner.webp',
+    'lash_brush': 'lash_brush.webp',
+    'micro_brush': 'micro_brush.webp',
+    'wash_brush': 'wash_brush.webp',
+    'remover_apply_brush': 'remover_apply_brush.webp',
+    'eyepad_10pack': 'eyepad_10pack.webp',
+    'cinta_micropore': 'cinta_micropore.webp'
+  };
+  return imageMap[productId] || 'glue_stop_100gr.webp';
+};
+
 export function ProductGrid({limit}:{limit?:number}){
   const list = limit ? products.slice(0,limit) : products;
   return (
@@ -9,12 +28,16 @@ export function ProductGrid({limit}:{limit?:number}){
       {list.map(p => (
         <div key={p.id} className="card p-6 hover:shadow-lg transition-all duration-300 group">
           <div className="h-48 bg-gradient-to-br from-cream to-taupe rounded-xl flex items-center justify-center relative overflow-hidden">
+            <img 
+              src={`/images/products/${getProductImage(p.id)}`}
+              alt={p.name}
+              className="w-full h-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
-            <div className="text-center z-10">
-              <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-2">
-                <Sparkles className="w-8 h-8 text-gold" />
+            <div className="absolute top-3 right-3">
+              <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                <Sparkles className="w-4 h-4 text-white" />
               </div>
-              <p className="text-sm text-gray-600 font-medium">{p.category}</p>
             </div>
           </div>
           <div className="mt-4">
