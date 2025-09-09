@@ -9,16 +9,16 @@ export default function Page() {
           <h2 className="text-2xl mb-4">Información de Contacto</h2>
           <div className="space-y-4">
             <div>
-              <p className="font-semibold text-gold">WhatsApp</p>
-              <a className="text-charcoal hover:text-gold transition-colors" href="https://wa.me/529981234567" target="_blank">+52 998 123 4567</a>
+              <p className="font-semibold text-gold">Teléfono</p>
+              <a className="text-charcoal hover:text-gold transition-colors" href="tel:+529981880825">(998) 188 0825</a>
             </div>
             <div>
               <p className="font-semibold text-gold">Email</p>
-              <a className="text-charcoal hover:text-gold transition-colors" href="mailto:contacto@thelash.mx">contacto@thelash.mx</a>
+              <a className="text-charcoal hover:text-gold transition-colors" href="mailto:thelashone@hotmail.com">thelashone@hotmail.com</a>
             </div>
             <div>
               <p className="font-semibold text-gold">Dirección</p>
-              <p className="text-charcoal">Av. Huayacán s/n Local 9<br />Col. Los Alamos I, C.P. 77533<br />Lagos del Sol, Benito Juárez, Quintana Roo</p>
+              <p className="text-charcoal">Av. Huayacán KM 2.5 Plaza Andara, Local 9<br />77533 Cancún, Q.R.</p>
             </div>
           </div>
         </div>
@@ -28,11 +28,11 @@ export default function Page() {
           <div className="space-y-2">
             <div className="flex justify-between">
               <span>Lunes - Viernes</span>
-              <span className="font-semibold">09:00 AM - 08:00 PM</span>
+              <span className="font-semibold">9:00 AM - 8:00 PM</span>
             </div>
             <div className="flex justify-between">
               <span>Sábados</span>
-              <span className="font-semibold">09:00 AM - 06:00 PM</span>
+              <span className="font-semibold">9:00 AM - 5:00 PM</span>
             </div>
             <div className="flex justify-between">
               <span>Domingos</span>

@@ -1,65 +1,98 @@
 [
   {
-    "id": "magic_brows",
-    "name": "Magic Brows",
+    "id": "glue_stop_100gr",
+    "name": "GLUE STOP (100gr)",
+    "price_mxn": 380,
+    "description": "Pegamento profesional para extensiones de pestañas - 100gr",
+    "category": "Profesional",
+    "image": "/images/products/glue_stop_100gr.webp"
+  },
+  {
+    "id": "glue_stop_80gr",
+    "name": "GLUE STOP (80gr)",
+    "price_mxn": 380,
+    "description": "Pegamento profesional para extensiones de pestañas - 80gr",
+    "category": "Profesional",
+    "image": "/images/products/glue_stop_80gr.webp"
+  },
+  {
+    "id": "cinta_micropore",
+    "name": "CINTA MICROPORE",
+    "price_mxn": 11,
+    "description": "Cinta micropore para protección durante el tratamiento",
+    "category": "Profesional",
+    "image": "/images/products/cinta_micropore.webp"
+  },
+  {
+    "id": "glue_sticker",
+    "name": "GLUE STICKER",
+    "price_mxn": 45,
+    "description": "Pegamento en formato sticker para aplicación precisa",
+    "category": "Profesional",
+    "image": "/images/products/glue_sticker.webp"
+  },
+  {
+    "id": "wash_brush",
+    "name": "WASH BRUSH",
+    "price_mxn": 120,
+    "description": "Cepillo especializado para limpieza de extensiones",
+    "category": "Herramientas",
+    "image": "/images/products/wash_brush.webp"
+  },
+  {
+    "id": "micro_brush",
+    "name": "MICRO BRUSH",
+    "price_mxn": 50,
+    "description": "Cepillo micro para aplicación detallada",
+    "category": "Herramientas",
+    "image": "/images/products/micro_brush.webp"
+  },
+  {
+    "id": "lash_brush",
+    "name": "LASH BRUSH",
+    "price_mxn": 50,
+    "description": "Cepillo especializado para pestañas",
+    "category": "Herramientas",
+    "image": "/images/products/lash_brush.webp"
+  },
+  {
+    "id": "remover_apply_brush",
+    "name": "REMOVER & APPLY BRUSH",
+    "price_mxn": 75,
+    "description": "Cepillo doble función para remover y aplicar",
+    "category": "Herramientas",
+    "image": "/images/products/remover_apply_brush.webp"
+  },
+  {
+    "id": "eyepad_10pack",
+    "name": "EYEPAD (10pack)",
     "price_mxn": 200,
-    "description": "Gel fijador para cejas con efecto natural",
-    "category": "Cuidado de Cejas"
+    "description": "Parches para ojos - paquete de 10 unidades",
+    "category": "Profesional",
+    "image": "/images/products/eyepad_10pack.webp"
+  },
+  {
+    "id": "lash_mascara",
+    "name": "LASH MASCARA",
+    "price_mxn": 450,
+    "description": "Máscara de pestañas profesional",
+    "category": "Maquillaje",
+    "image": "/images/products/lash_mascara.webp"
   },
   {
     "id": "magic_liner",
-    "name": "Magic Liner",
+    "name": "MAGIC LINER",
     "price_mxn": 250,
-    "description": "Delineador líquido de larga duración",
-    "category": "Maquillaje"
+    "description": "Delineador mágico para pestañas",
+    "category": "Maquillaje",
+    "image": "/images/products/magic_liner.webp"
   },
   {
-    "id": "brow_brush",
-    "name": "Brows Up",
-    "price_mxn": 250,
-    "description": "Cepillo profesional para cejas",
-    "category": "Herramientas"
-  },
-  {
-    "id": "serum_pro",
-    "name": "Serum Pro",
-    "price_mxn": 450,
-    "description": "Serum fortalecedor para pestañas naturales",
-    "category": "Cuidado de Pestañas"
-  },
-  {
-    "id": "golden_brush",
-    "name": "Golden Brush",
-    "price_mxn": 150,
-    "description": "Cepillo dorado para aplicación profesional",
-    "category": "Herramientas"
-  },
-  {
-    "id": "parche_colageno",
-    "name": "Parche de Colágeno",
-    "price_mxn": 30,
-    "description": "Parche hidratante con colágeno",
-    "category": "Cuidado Facial"
-  },
-  {
-    "id": "lash_glue",
-    "name": "Pegamento Profesional",
-    "price_mxn": 180,
-    "description": "Pegamento de larga duración para extensiones",
-    "category": "Profesional"
-  },
-  {
-    "id": "cleanser",
-    "name": "Limpiador Especializado",
-    "price_mxn": 220,
-    "description": "Limpiador suave para extensiones",
-    "category": "Cuidado de Pestañas"
-  },
-  {
-    "id": "oil_free",
-    "name": "Crema Oil-Free",
-    "price_mxn": 280,
-    "description": "Crema hidratante sin aceites",
-    "category": "Cuidado Facial"
+    "id": "lash_mousse_160ml",
+    "name": "LASH MOUSSE (160ml)",
+    "price_mxn": 290,
+    "description": "Mousse para pestañas - 160ml",
+    "category": "Cuidado de Pestañas",
+    "image": "/images/products/lash_mousse_160ml.webp"
   }
 ]

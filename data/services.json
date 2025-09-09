@@ -78,5 +78,109 @@
     "price_mxn": 400,
     "duration_min": 75,
     "description": "Retoque para extensiones de volumen"
+  },
+  {
+    "id": "wet_look",
+    "name": "Extensiones Wet Look",
+    "category": "Extensiones de Pestañas",
+    "price_mxn": 790,
+    "duration_min": 140,
+    "description": "Efecto mojado para un look fresco y brillante"
+  },
+  {
+    "id": "kim_k",
+    "name": "Extensiones Kim K",
+    "category": "Extensiones de Pestañas",
+    "price_mxn": 790,
+    "duration_min": 140,
+    "description": "Estilo inspirado en Kim Kardashian con picos y valles"
+  },
+  {
+    "id": "manga",
+    "name": "Extensiones Manga",
+    "category": "Extensiones de Pestañas",
+    "price_mxn": 790,
+    "duration_min": 140,
+    "description": "Estilo japonés con pestañas más largas en puntos específicos"
+  },
+  {
+    "id": "foxy",
+    "name": "Extensiones Foxy",
+    "category": "Extensiones de Pestañas",
+    "price_mxn": 790,
+    "duration_min": 140,
+    "description": "Efecto ojo de zorro con pestañas más largas en las esquinas"
+  },
+  {
+    "id": "cat_eye",
+    "name": "Extensiones Cat Eye",
+    "category": "Extensiones de Pestañas",
+    "price_mxn": 790,
+    "duration_min": 140,
+    "description": "Efecto ojo de gato con pestañas más largas en las esquinas"
+  },
+  {
+    "id": "refill_classic",
+    "name": "Relleno Clásico",
+    "category": "Rellenos",
+    "price_mxn": 450,
+    "duration_min": 90,
+    "description": "Relleno para extensiones clásicas"
+  },
+  {
+    "id": "refill_hybrid",
+    "name": "Relleno Híbrido",
+    "category": "Rellenos",
+    "price_mxn": 490,
+    "duration_min": 100,
+    "description": "Relleno para extensiones híbridas"
+  },
+  {
+    "id": "refill_volume",
+    "name": "Relleno Volumen",
+    "category": "Rellenos",
+    "price_mxn": 550,
+    "duration_min": 110,
+    "description": "Relleno para extensiones de volumen"
+  },
+  {
+    "id": "refill_mega_volume",
+    "name": "Relleno Mega Volumen",
+    "category": "Rellenos",
+    "price_mxn": 690,
+    "duration_min": 120,
+    "description": "Relleno para extensiones de mega volumen"
+  },
+  {
+    "id": "brow_design",
+    "name": "Brow Design",
+    "category": "Brow Design",
+    "price_mxn": 250,
+    "duration_min": 30,
+    "description": "Diseño de cejas personalizado"
+  },
+  {
+    "id": "brow_tint",
+    "name": "Brow Tint",
+    "category": "Brow Design",
+    "price_mxn": 200,
+    "duration_min": 20,
+    "description": "Tinte de cejas para mayor intensidad"
+  },
+  {
+    "id": "lash_removal",
+    "name": "Retiro de Extensiones de Pestañas",
+    "category": "Retiros",
+    "price_mxn": 150,
+    "duration_min": 30,
+    "description": "Retiro seguro y profesional de extensiones"
+  },
+  {
+    "id": "brow_removal",
+    "name": "Retiro de Laminado de Cejas",
+    "category": "Retiros",
+    "price_mxn": 150,
+    "duration_min": 30,
+    "description": "Retiro seguro de laminado de cejas"
   }
 ]

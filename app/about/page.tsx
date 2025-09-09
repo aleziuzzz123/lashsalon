@@ -40,9 +40,8 @@ export default function Page() {
           </p>
           <div className="space-y-2 text-sm">
             <p><span className="font-semibold text-gold">Dirección:</span><br />
-            Av. Huayacán s/n Local 9<br />
-            Col. Los Alamos I, C.P. 77533<br />
-            Lagos del Sol, Benito Juárez, Quintana Roo</p>
+            Av. Huayacán KM 2.5 Plaza Andara, Local 9<br />
+            77533 Cancún, Q.R.</p>
           </div>
         </div>
       </div>
@@ -54,8 +53,8 @@ export default function Page() {
           </div>
           <h4 className="text-xl font-serif mb-2">Horarios</h4>
           <p className="text-sm text-gray-600">
-            Lun - Vie: 09:00 - 20:00<br />
-            Sáb: 09:00 - 18:00<br />
+            Lun - Vie: 9:00 - 20:00<br />
+            Sáb: 9:00 - 17:00<br />
             Dom: Cerrado
           </p>
         </div>
@@ -66,8 +65,8 @@ export default function Page() {
           </div>
           <h4 className="text-xl font-serif mb-2">Contacto</h4>
           <p className="text-sm text-gray-600">
-            WhatsApp: +52 998 123 4567<br />
-            Email: contacto@thelash.mx
+            Teléfono: (998) 188 0825<br />
+            Email: thelashone@hotmail.com
           </p>
         </div>
 

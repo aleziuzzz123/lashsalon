@@ -5,8 +5,8 @@
   "/page": "app/page.js",
   "/book/page": "app/book/page.js",
   "/account/page": "app/account/page.js",
-  "/services/page": "app/services/page.js",
-  "/shop/page": "app/shop/page.js",
   "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js"
+  "/about/page": "app/about/page.js",
+  "/services/page": "app/services/page.js",
+  "/shop/page": "app/shop/page.js"
 }
