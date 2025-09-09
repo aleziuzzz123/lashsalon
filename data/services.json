@@ -1,0 +1,58 @@
+[
+  {
+    "id": "classic_set",
+    "name": "Full Lashes (Clásico)",
+    "category": "Full Sets",
+    "price_mxn": 650,
+    "duration_min": 120
+  },
+  {
+    "id": "hybrid_set",
+    "name": "Full Lashes (Híbrido)",
+    "category": "Full Sets",
+    "price_mxn": 690,
+    "duration_min": 130
+  },
+  {
+    "id": "volume_set",
+    "name": "Full Lashes (Volumen)",
+    "category": "Full Sets",
+    "price_mxn": 750,
+    "duration_min": 140
+  },
+  {
+    "id": "mega_volume",
+    "name": "Full Lashes (Mega Volumen)",
+    "category": "Full Sets",
+    "price_mxn": 890,
+    "duration_min": 150
+  },
+  {
+    "id": "brow_lifting",
+    "name": "Brow Lifting Laminado",
+    "category": "Brow Lifting",
+    "price_mxn": 500,
+    "duration_min": 60
+  },
+  {
+    "id": "lash_lifting",
+    "name": "Lash Lifting",
+    "category": "Lash Lifting",
+    "price_mxn": 550,
+    "duration_min": 60
+  },
+  {
+    "id": "lash_lifting_tint",
+    "name": "Lash Lifting + Tinte",
+    "category": "Lash Lifting",
+    "price_mxn": 650,
+    "duration_min": 75
+  },
+  {
+    "id": "thread_brows",
+    "name": "Depilación con hilo - Cejas",
+    "category": "Depilación",
+    "price_mxn": 150,
+    "duration_min": 20
+  }
+]

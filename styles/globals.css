@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root { color-scheme: light; }
+body { @apply bg-marble text-charcoal font-sans; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition shadow-soft; }
+.btn-primary { @apply bg-gold text-white hover:opacity-95; }
+.btn-outline { @apply border border-gold text-gold hover:bg-cream; }
+.card { @apply bg-white/80 backdrop-blur rounded-2xl border border-taupe/40 shadow-soft; }
+.section { @apply py-16; }
+h1,h2,h3,h4 { @apply font-serif text-charcoal; }
+h1 { @apply text-4xl md:text-5xl; }
+h2 { @apply text-3xl md:text-4xl; }
+small.helper { @apply text-sm text-gray-500; }

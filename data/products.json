@@ -1,0 +1,32 @@
+[
+  {
+    "id": "magic_brows",
+    "name": "Magic Brows",
+    "price_mxn": 200
+  },
+  {
+    "id": "magic_liner",
+    "name": "Magic Liner",
+    "price_mxn": 250
+  },
+  {
+    "id": "brow_brush",
+    "name": "Brows Up",
+    "price_mxn": 250
+  },
+  {
+    "id": "serum_pro",
+    "name": "Serum Pro",
+    "price_mxn": 450
+  },
+  {
+    "id": "golden_brush",
+    "name": "Golden Brush",
+    "price_mxn": 150
+  },
+  {
+    "id": "parche_colageno",
+    "name": "Parche de Colágeno",
+    "price_mxn": 30
+  }
+]
