@@ -33,7 +33,7 @@ const getServiceImage = (serviceId: string) => {
     'lash_removal': 'Retiro de Extensiones.png',
     'brow_removal': 'Retiro de Laminado.png'
   };
-  return imageMap[serviceId] || 'Extensiones Clásicas.png';
+  return imageMap[serviceId] || 'Extensiones de Pestañas.png';
 };
 
 // Function to get the appropriate icon for each service category
