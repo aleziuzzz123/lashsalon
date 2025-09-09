@@ -51,7 +51,7 @@ export default function BookingWidget(){
     <div className="card p-6 max-w-xl">
       <label className="block text-sm mb-2">Servicio</label>
       <select className="w-full border rounded-xl p-3" value={serviceId} onChange={e=>setServiceId(e.target.value)}>
-        {(services as any[]).map(s => <option key={s.id} value={s.id}>{s.name} — ${'{'}s.price_mxn{'}'} MXN</option>)}
+        {(services as any[]).map(s => <option key={s.id} value={s.id}>{s.name} — ${s.price_mxn} MXN</option>)}
       </select>
 
       <label className="block text-sm mt-4 mb-2">Horario</label>
