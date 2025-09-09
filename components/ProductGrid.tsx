@@ -1,22 +1,31 @@
 
+'use client';
+
+import { useState } from 'react';
 import products from "@/data/products.json";
-import { Sparkles, ShoppingCart } from "lucide-react";
+import { Sparkles, ShoppingCart, Eye } from "lucide-react";
+import { ProductModal } from './ProductModal';
 
 // Function to get the correct image filename for each product
 const getProductImage = (productId: string) => {
   const imageMap: { [key: string]: string } = {
     'glue_stop_100gr': 'GLUE STOP.png',
-    'glue_stop_80gr': 'GLUE STOP.png',
+    'glue_stop_80gr': 'gluestop 80.png',
     'glue_sticker': 'GLUE STICKER.png',
     'cinta_micropore': 'CINTA MICROPORE.png',
-    'lash_mascara': 'lash_mascara.webp',
-    'lash_mousse_160ml': 'lash_mousse_160ml.webp',
-    'magic_liner': 'magic_liner.webp',
-    'lash_brush': 'lash_brush.webp',
+    'lash_mascara': 'Lash_mascara_1.jpg',
+    'lash_mousse_160ml': 'Lash_mousse_160_1.jpg',
+    'magic_liner': 'Magic_liner.jpg',
+    'lash_brush': 'Lash_brush_1.jpg',
     'micro_brush': 'Micro_brush.jpg',
     'wash_brush': 'Wash_brush.jpg',
-    'remover_apply_brush': 'remover_apply_brush.webp',
-    'eyepad_10pack': 'eyepad_10pack.webp'
+    'remover_apply_brush': 'Remover_apply_brush_1.jpg',
+    'eyepad_10pack': 'Eyepad_1.jpg',
+    'face_scrub': 'Face_scrub_1.jpg',
+    'golden_brush': 'Golden_brush_1.jpg',
+    'hyaluronic_face': 'Hyaluronic_face_1.jpg',
+    'hydra_face_roses': 'Hydra_face_roses_1.jpg',
+    'lash_mousse_mini': 'lash_mousse_160ml.webp'
   };
   return imageMap[productId] || 'GLUE STOP.png';
 };
@@ -34,11 +43,26 @@ const getMicroBrushImage = () => {
 };
 
 export function ProductGrid({limit}:{limit?:number}){
+  const [selectedProduct, setSelectedProduct] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const list = limit ? products.slice(0,limit) : products;
+  
+  const handleViewMore = (product: any) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+  
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedProduct(null);
+  };
+  
   return (
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {list.map(p => (
-        <div key={p.id} className="card p-6 hover:shadow-lg transition-all duration-300 group">
+    <>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {list.map(p => (
+          <div key={p.id} className="card p-6 hover:shadow-lg transition-all duration-300 group">
                       <div className="h-48 bg-gradient-to-br from-cream to-taupe rounded-xl flex items-center justify-center relative overflow-hidden">
                         <img
                           src={`/images/products/${p.id === 'micro_brush' ? getMicroBrushImage() : getProductImage(p.id)}`}
@@ -75,14 +99,33 @@ export function ProductGrid({limit}:{limit?:number}){
             
             <div className="mt-3 flex items-center justify-between">
               <span className="text-2xl font-bold text-gold">${p.price_mxn} MXN</span>
-              <button className="btn btn-outline text-sm px-4 py-2 hover:bg-gold hover:text-white transition-all flex items-center">
-                <ShoppingCart className="w-4 h-4 mr-1" />
-                Agregar
-              </button>
+              <div className="flex gap-2">
+                <button 
+                  onClick={() => handleViewMore(p)}
+                  className="btn btn-outline text-sm px-3 py-2 hover:bg-theme hover:text-white transition-all flex items-center"
+                >
+                  <Eye className="w-4 h-4 mr-1" />
+                  Ver Más
+                </button>
+                <button className="btn btn-primary text-sm px-3 py-2 flex items-center">
+                  <ShoppingCart className="w-4 h-4 mr-1" />
+                  Agregar
+                </button>
+              </div>
             </div>
           </div>
         </div>
       ))}
-    </div>
+      </div>
+      
+      {/* Product Modal */}
+      {selectedProduct && (
+        <ProductModal
+          product={selectedProduct}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
+      )}
+    </>
   )
 }

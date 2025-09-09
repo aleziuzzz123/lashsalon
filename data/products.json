@@ -3,51 +3,55 @@
     "id": "glue_stop_100gr",
     "name": "GLUE STOP (100gr)",
     "price_mxn": 380,
-    "description": "Este increíble gel ayuda a la absorción y desintoxicación de sustancias nocivas generadas por el adhesivo de pestañas. Altamente recomendado para salones de extensiones de pestañas y de uñas.",
+    "description": "¡Protege tu salud y la de tus clientes con nuestro GLUE STOP! Este increíble gel ayuda a la absorción y desintoxicación de sustancias nocivas generadas por el adhesivo de pestañas. Altamente recomendado para salones de extensiones de pestañas y de uñas. ¡Respira tranquila mientras trabajas!",
     "usage_instructions": "Modo de uso: Retira la tapa y colócalo cerca de ti y tu cliente, ya que también ayuda a reducir las irritaciones causadas por los dañinos humos de los adhesivos. Además su aroma refrescante les encantará.",
     "certification": "Este producto ha obtenido el certificado del Ministerio de Medio Ambiente de la República de Corea",
     "availability": "48 disponibles",
     "wholesale_note": "*Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/glue_stop_100gr.webp"
+    "image": "/images/products/GLUE STOP.png"
   },
   {
     "id": "glue_stop_80gr",
     "name": "GLUE STOP (80gr)",
-    "price_mxn": 380,
-    "description": "Pegamento profesional para extensiones de pestañas - 80gr",
+    "price_mxn": 350,
+    "description": "¡Protege tu salud y la de tus clientes con nuestro GLUE STOP! Este increíble gel ayuda a la absorción y desintoxicación de sustancias nocivas generadas por el adhesivo de pestañas. Altamente recomendado para salones de extensiones de pestañas y de uñas. ¡Respira tranquila mientras trabajas!",
+    "usage_instructions": "Modo de uso: Retira la tapa y colócalo cerca de ti y tu cliente, ya que también ayuda a reducir las irritaciones causadas por los dañinos humos de los adhesivos. Además su aroma refrescante les encantará.",
+    "certification": "Este producto ha obtenido el certificado del Ministerio de Medio Ambiente de la República de Corea",
+    "availability": "48 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/glue_stop_80gr.webp"
+    "image": "/images/products/gluestop 80.png"
   },
   {
     "id": "cinta_micropore",
     "name": "CINTA MICROPORE",
     "price_mxn": 11,
-    "description": "Nuestra cinta es ideal para utilizar en el párpado inferior del cliente cuando no desean parche, así como para hacer el Tapping correcto.",
+    "description": "¡La cinta perfecta para profesionales exigentes! Nuestra cinta es ideal para utilizar en el párpado inferior del cliente cuando no desean parche, así como para hacer el Tapping correcto. ¡Garantiza un trabajo impecable sin molestias!",
     "features": "• Es libre de pelusas, adhiere muy bien y no lastima al retirarla. Puedes adquirirla de manera individual o por cajas.",
     "contents": "• Contiene 100 piezas.",
     "availability": "995 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/cinta_micropore.webp"
+    "image": "/images/products/CINTA MICROPORE.png"
   },
   {
     "id": "glue_sticker",
     "name": "GLUE STICKER",
     "price_mxn": 45,
-    "description": "Este parche está indicado para el uso de tu adhesivo. Pégalo sobre tu piedra jade o cristal y encima coloca tu gota de adhesivo.",
+    "description": "¡Mantén tu estación de trabajo impecable y profesional! Este parche está indicado para el uso de tu adhesivo. Pégalo sobre tu piedra jade o cristal y encima coloca tu gota de adhesivo. ¡Organización y salud en un solo producto!",
     "features": "• Dale un plus a tu servicio teniendo una estación más ordenada y elimina humos nocivos para tu salud que son causados por otros productos como la cinta micropore.",
     "contents": "• Contiene 100 piezas.",
     "availability": "100 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo.",
     "category": "Profesional",
-    "image": "/images/products/glue_sticker.webp"
+    "image": "/images/products/GLUE STICKER.png"
   },
   {
     "id": "wash_brush",
     "name": "WASH BRUSH",
     "price_mxn": 120,
-    "description": "Nuestra brocha está hecha especialmente para el lavado diario de tus extensiones, sus fibras limpian profundamente entre tus pestañas permitiéndoles una larga vida y mayor higiene.",
+    "description": "¡El cuidado perfecto para tus extensiones! Nuestra brocha está hecha especialmente para el lavado diario de tus extensiones, sus fibras limpian profundamente entre tus pestañas permitiéndoles una larga vida y mayor higiene. ¡Mantén tus extensiones perfectas por más tiempo!",
     "availability": "214 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo",
     "category": "Herramientas",
@@ -57,58 +61,137 @@
     "id": "micro_brush",
     "name": "MICRO BRUSH",
     "price_mxn": 50,
-    "description": "Micro cepillo ideal para el retiro de las extensiones de pestañas y aplicador de Primer.",
+    "description": "¡Precisión profesional en cada aplicación! Micro cepillo ideal para el retiro de las extensiones de pestañas y aplicador de Primer. Diseñado para trabajos delicados que requieren máxima precisión. ¡Herramienta esencial para profesionales!",
     "availability": "99 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo.",
     "category": "Herramientas",
-    "image": "/images/products/micro_brush.webp"
-  },
-  {
-    "id": "lash_brush",
-    "name": "LASH BRUSH",
-    "price_mxn": 50,
-    "description": "Cepillo especializado para pestañas",
-    "category": "Herramientas",
-    "image": "/images/products/lash_brush.webp"
-  },
-  {
-    "id": "remover_apply_brush",
-    "name": "REMOVER & APPLY BRUSH",
-    "price_mxn": 75,
-    "description": "Cepillo doble función para remover y aplicar",
-    "category": "Herramientas",
-    "image": "/images/products/remover_apply_brush.webp"
-  },
-  {
-    "id": "eyepad_10pack",
-    "name": "EYEPAD (10pack)",
-    "price_mxn": 200,
-    "description": "Parches para ojos - paquete de 10 unidades",
-    "category": "Profesional",
-    "image": "/images/products/eyepad_10pack.webp"
+    "image": "/images/products/Micro_brush.jpg"
   },
   {
     "id": "lash_mascara",
     "name": "LASH MASCARA",
     "price_mxn": 450,
-    "description": "Máscara de pestañas profesional",
-    "category": "Maquillaje",
-    "image": "/images/products/lash_mascara.webp"
-  },
-  {
-    "id": "magic_liner",
-    "name": "MAGIC LINER",
-    "price_mxn": 250,
-    "description": "Delineador mágico para pestañas",
-    "category": "Maquillaje",
-    "image": "/images/products/magic_liner.webp"
+    "description": "¡Descubre la revolución en el cuidado de pestañas! Lash Mascara es una máscara transparente que proporciona un efecto mojado/rímel y al mismo tiempo protege a las extensiones y pestañas de agentes contaminantes como polvo, grasa natural y partículas que por acumulación pueden afectar la retención de las mismas.",
+    "features": "• Forma una capa transparente resistente a la humedad por hasta 24 horas, sin embargo, es fácil su retiro, sin que se vean afectadas las extensiones.\n• Hidrata y fortalece tus pestañas gracias a sus ingredientes naturales como Acido Hialuronico y Vitamina B5.\n• Ideal para uso con extensiones y Lash Lifting.",
+    "availability": "95 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Cuidado",
+    "image": "/images/products/Lash_mascara_1.jpg"
   },
   {
     "id": "lash_mousse_160ml",
     "name": "LASH MOUSSE (160ml)",
     "price_mxn": 290,
-    "description": "Mousse para pestañas - 160ml",
-    "category": "Cuidado de Pestañas",
+    "description": "¡El limpiador perfecto para extensiones de pestañas! Es un limpiador para el correcto mantenimiento de las extensiones de pestañas, además es auxiliar para alargar su durabilidad. ¡Mantén tus extensiones impecables y saludables!",
+    "features": "• Está diseñado para prevenir infecciones por acumulación de polvo, grasa, maquillaje y células muertas.\n• Mantendrá tu piel y pestañas hidratadas gracias a sus ingredientes naturales derivados del aloe vera y la manzanilla.",
+    "ingredients": "Ingredientes: Agua, Glicerina, Ácido Hialurónico, Aloe Vera, Manzanilla, Fenoxietanol, LIBRE DE JABÓN.",
+    "availability": "32 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Cuidado",
+    "image": "/images/products/Lash_mousse_160_1.jpg"
+  },
+  {
+    "id": "magic_liner",
+    "name": "MAGIC LINER",
+    "price_mxn": 250,
+    "description": "¡Nunca más delineador corrido! ¿Cansada de que el delineador se te corra o no permanezca en su lugar? Nuestro Magic Eyeliner llegó para poner fin a esos molestos episodios. Su fijación de larga duración te permitirá realizar cualquier actividad durante día y noche. ¡Para retirarlo solo deja posar unos segundos un algodón con agua tibia!",
+    "features": "• Fijación de larga duración • Resistente al agua • Fácil de remover • Punta precisa",
+    "availability": "33 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Maquillaje",
+    "image": "/images/products/Magic_liner.jpg"
+  },
+  {
+    "id": "lash_brush",
+    "name": "LASH BRUSH",
+    "price_mxn": 50,
+    "description": "¡Cepillos desechables para el cepillado correcto de tus pestañas! Diseñados específicamente para el cuidado profesional de extensiones de pestañas. ¡Hygiene y precisión en cada uso!",
+    "features": "• Desechables e higiénicos • Diseño profesional • Ideal para extensiones • Colores diferenciados",
+    "contents": "• Paquete con múltiples cepillos de colores",
+    "availability": "100 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Herramientas",
+    "image": "/images/products/Lash_brush_1.jpg"
+  },
+  {
+    "id": "remover_apply_brush",
+    "name": "REMOVER & APPLY BRUSH",
+    "price_mxn": 75,
+    "description": "¡El pincel de microfibras perfecto para profesionales! Este pincel de microfibras es ideal para remover el maquillaje o delineador de la zona de tus ojos para proteger a tus extensiones, es libre de pelusas, lo cual permitirá que las pestañas no se dañen ni se enreden con los molestos restos del algodón regular.",
+    "features": "• También sirve como aplicador para lipstick, sombras o correctores.\n• Libre de pelusas • No daña las extensiones • Multiuso",
+    "contents": "• Incluye 50 pcs.",
+    "availability": "68 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo",
+    "category": "Herramientas",
+    "image": "/images/products/Remover_apply_brush_1.jpg"
+  },
+  {
+    "id": "eyepad_10pack",
+    "name": "EYEPAD (10pack)",
+    "price_mxn": 200,
+    "description": "¡Protección e hidratación en un solo producto! Ideales para proteger las pestañas inferiores al aplicar extensiones. Sus ingredientes naturales como Extracto de Aloe y Vitamina C, le brindarán diversos beneficios a tu piel. ¡Comodidad y cuidado para tus clientes!",
+    "features": "• Protege las pestañas inferiores • Ingredientes naturales • Extracto de Aloe • Vitamina C",
+    "contents": "• Paquete de 10 unidades",
+    "availability": "100 disponibles",
+    "wholesale_note": "*Consulta nuestros precios individuales y de mayoreo.",
+    "category": "Profesional",
+    "image": "/images/products/Eyepad_1.jpg"
+  },
+  {
+    "id": "face_scrub",
+    "name": "FACE SCRUB",
+    "price_mxn": 60,
+    "description": "¡Revela la belleza natural de tu piel! Con nuestro Exfoliante Facial mejorarás la circulación de tu rostro, así como aumentar la luminosidad en él, también reducirás el tamaño de los poros y lo mejor: ¡eliminarás todas las células muertas sin lastimar tu piel! Suave y efectivo, ideal para una piel radiante y saludable.",
+    "features": "• Mejora la circulación • Aumenta la luminosidad • Reduce poros • Exfoliación suave",
+    "availability": "21 disponibles",
+    "category": "Cuidado Facial",
+    "image": "/images/products/Face_scrub_1.jpg"
+  },
+  {
+    "id": "golden_brush",
+    "name": "GOLDEN BRUSH",
+    "price_mxn": 150,
+    "description": "¡Cuidado del medio ambiente nunca se vio tan elegante! Golden brush está diseñado especialmente para cuidar nuestro Medio Ambiente, es REUSABLE, así que podrás utilizarlo cuantas veces quieras y lo mejor: TIENE UNA CUBIERTA PARA QUE LO PUEDAS TRAER EN TU BOLSO SIN ENSUCIARSE NI LLENARSE DE BACTERIAS.",
+    "features": "• Reutilizable • Cubierta protectora • Cuidado del medio ambiente • Portátil",
+    "availability": "48 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Herramientas",
+    "image": "/images/products/Golden_brush_1.jpg"
+  },
+  {
+    "id": "hyaluronic_face",
+    "name": "HYALURONIC FACE",
+    "price_mxn": 490,
+    "description": "¡El suero que tu piel necesita! Es un suero de Ácido Hialurónico con múltiples beneficios para tu rostro. Proporciona firmeza, elasticidad, así como una hidratación profunda a la piel. Ayuda a rellenarla y prevenir las primeras líneas de expresión, disminuye la apariencia de poros y aporta luminosidad.",
+    "features": "• Proporciona firmeza y elasticidad • Hidratación profunda • Previene líneas de expresión • Disminuye poros • Aporta luminosidad • Reconstruye tejidos • Restaura barrera protectora • Favorece producción de colágeno y elastina",
+    "ingredients": "Su textura es AQUA-GEL de acabado suave, ultra ligera, fresca y agradable al aplicar. (30ml.)",
+    "availability": "27 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Cuidado Facial",
+    "image": "/images/products/Hyaluronic_face_1.jpg"
+  },
+  {
+    "id": "hydra_face_roses",
+    "name": "HYDRA FACE ROSES",
+    "price_mxn": 290,
+    "description": "¡Hidratación y belleza natural en cada gota! Nuestro Tónico de AGUA DE ROSAS + Aloe + Hamamelis es de uso diario y tiene diversos beneficios: Antiarrugas, Tonificante, Antibacteriano, Regula la piel grasa, Calmante, Desinflamante, Antioxidante, Mejora el acné y la rosácea, Entre otros.",
+    "features": "• Antiarrugas • Tonificante • Antibacteriano • Regula la piel grasa • Calmante • Desinflamante • Antioxidante • Mejora el acné y la rosácea",
+    "ingredients": "Ingredientes: Agua, extracto natural de agua de rosas, aloe vera, hamamelis, fenoxietanol. (120ml.)",
+    "formulation": "Es libre de aceites, parabenos, siliconas y sulfatos.",
+    "availability": "23 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Cuidado Facial",
+    "image": "/images/products/Hydra_face_roses_1.jpg"
+  },
+  {
+    "id": "lash_mousse_mini",
+    "name": "LASH MOUSSE Mini (50ml)",
+    "price_mxn": 190,
+    "description": "¡El limpiador perfecto para llevar contigo! Versión mini de nuestro Lash Mousse, ideal para viajes y uso diario. Mantén tus extensiones limpias y saludables en cualquier lugar. ¡Tamaño perfecto para tu bolso!",
+    "features": "• Tamaño perfecto para viajes • Misma calidad que la versión grande • Fácil de transportar • Ideal para uso diario",
+    "availability": "25 disponibles",
+    "wholesale_note": "*Consulta nuestros precios de mayoreo.",
+    "category": "Cuidado",
     "image": "/images/products/lash_mousse_160ml.webp"
   }
 ]
