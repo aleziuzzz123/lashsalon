@@ -8,6 +8,11 @@ import type { ReactNode } from "react";
 export const metadata = {
   title: "THE LASH & CO — Cancún",
   description: "Reserva servicios de pestañas y compra productos de belleza.",
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

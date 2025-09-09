@@ -7,9 +7,9 @@
 :root { color-scheme: light; }
 body { @apply bg-warmWhite text-charcoal font-sans; }
 .container { @apply max-w-6xl mx-auto px-4; }
-.btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition-all duration-300 shadow-soft; }
-.btn-primary { @apply bg-gradient-to-r from-gold to-deepGold text-white hover:from-deepGold hover:to-gold hover:shadow-lg transform hover:-translate-y-0.5; }
-.btn-outline { @apply border-2 border-gold text-gold hover:bg-gold hover:text-white hover:border-gold; }
+.btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 font-medium transition-all duration-300 text-sm; }
+.btn-primary { @apply bg-theme text-white hover:bg-themeDark hover:shadow-md transform hover:-translate-y-0.5; }
+.btn-outline { @apply border border-theme text-theme hover:bg-theme hover:text-white hover:border-theme; }
 .card { @apply bg-gradient-to-br from-warmWhite to-softPink backdrop-blur rounded-2xl border border-rose/20 shadow-soft hover:shadow-lg transition-all duration-300; }
 .section { @apply py-16; }
 h1,h2,h3,h4 { @apply font-serif text-charcoal; }
@@ -63,12 +63,12 @@ small.helper { @apply text-sm text-warmGray; }
 
 /* Enhanced button styles */
 .btn-outline {
-  @apply border-2 border-gold text-gold hover:bg-gold hover:text-white hover:border-gold transition-all duration-300;
+  @apply border border-theme text-theme hover:bg-theme hover:text-white hover:border-theme transition-all duration-300;
 }
 
 .btn-outline:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(201, 169, 105, 0.3);
+  box-shadow: 0 2px 8px rgba(162, 104, 102, 0.2);
 }
 
 /* Card hover effects */

@@ -3,12 +3,81 @@ import Link from "next/link";
 import { Hero } from "@/components/Hero";
 import { ServiceGrid } from "@/components/ServiceGrid";
 import { ProductGrid } from "@/components/ProductGrid";
-import { Star, Heart, Sparkles, Clock, Shield, Users, ArrowRight, CheckCircle } from "lucide-react";
+import { Star, Heart, Sparkles, Clock, Shield, Users, ArrowRight, CheckCircle, Play } from "lucide-react";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      
+      {/* Video Section */}
+      <section className="py-20 bg-gradient-to-br from-warmWhite to-softPink/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-serif text-charcoal mb-6">
+              Descubre nuestra experiencia
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Mira cómo transformamos miradas y creamos belleza única para cada una de nuestras clientas.
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="relative aspect-video bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden group cursor-pointer">
+              {/* Video Placeholder Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-theme/20 via-theme/10 to-themeDark/30"></div>
+              
+              {/* Play Button Overlay */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                  <Play className="w-8 h-8 text-theme ml-1" fill="currentColor" />
+                </div>
+              </div>
+              
+              {/* Video Title Overlay */}
+              <div className="absolute bottom-6 left-6 right-6">
+                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4">
+                  <h3 className="text-lg font-serif text-charcoal mb-2">
+                    Transformación Completa de Pestañas
+                  </h3>
+                  <p className="text-sm text-gray-600">
+                    Proceso completo desde la consulta hasta el resultado final
+                  </p>
+                </div>
+              </div>
+              
+              {/* Decorative Elements */}
+              <div className="absolute top-6 right-6">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <Sparkles className="w-6 h-6 text-white" />
+                </div>
+              </div>
+              
+              <div className="absolute top-6 left-6">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <Heart className="w-6 h-6 text-white" />
+                </div>
+              </div>
+            </div>
+            
+            {/* Video Stats */}
+            <div className="mt-8 grid grid-cols-3 gap-6 text-center">
+              <div>
+                <div className="text-2xl font-bold text-theme">500+</div>
+                <div className="text-sm text-gray-600">Clientas satisfechas</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-theme">3+</div>
+                <div className="text-sm text-gray-600">Años de experiencia</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-theme">100%</div>
+                <div className="text-sm text-gray-600">Garantía de calidad</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Why Choose Us Section */}
       <section className="py-20 bg-gradient-to-br from-softPink/30 via-warmWhite to-blush/20">

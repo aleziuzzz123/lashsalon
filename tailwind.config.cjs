@@ -23,7 +23,12 @@ module.exports = {
         mutedGold: "#D4AF37",
         dustyRose: "#D4A5A5",
         creamGold: "#F5E6A3",
-        softTaupe: "#C4B5A0"
+        softTaupe: "#C4B5A0",
+        
+        // Main theme color from thelash.mx
+        theme: "#a26866",
+        themeLight: "#B87A7A",
+        themeDark: "#8B5A5A"
       },
       boxShadow: {
         soft: "0 10px 30px rgba(0,0,0,0.06)"

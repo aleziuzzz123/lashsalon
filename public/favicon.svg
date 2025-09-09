@@ -1,0 +1,47 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="16" cy="16" r="16" fill="url(#gradient1)"/>
+  
+  <!-- Eye shape -->
+  <ellipse cx="16" cy="14" rx="8" ry="5" fill="url(#gradient2)" opacity="0.9"/>
+  
+  <!-- Eyelashes -->
+  <path d="M8 12 Q10 8 12 12" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M10 11 Q12 7 14 11" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M12 10 Q14 6 16 10" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M14 10 Q16 6 18 10" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M16 10 Q18 6 20 10" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M18 11 Q20 7 22 11" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M20 12 Q22 8 24 12" stroke="#a26866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Lower lashes -->
+  <path d="M8 16 Q10 20 12 16" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M10 17 Q12 21 14 17" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M12 18 Q14 22 16 18" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M14 18 Q16 22 18 18" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M16 18 Q18 22 20 18" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M18 17 Q20 21 22 17" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M20 16 Q22 20 24 16" stroke="#a26866" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Eye highlight -->
+  <ellipse cx="14" cy="12" rx="2" ry="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Sparkle effect -->
+  <path d="M6 6 L8 8 L6 10 L4 8 Z" fill="#a26866" opacity="0.8"/>
+  <path d="M26 6 L28 8 L26 10 L24 8 Z" fill="#a26866" opacity="0.8"/>
+  <path d="M6 22 L8 24 L6 26 L4 24 Z" fill="#a26866" opacity="0.8"/>
+  <path d="M26 22 L28 24 L26 26 L24 24 Z" fill="#a26866" opacity="0.8"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEFCFB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F7E7E7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a26866;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a26866;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8B5A5A;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+</svg>
