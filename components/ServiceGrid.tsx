@@ -4,6 +4,7 @@ import { useState } from 'react';
 import services from "@/data/services.json";
 import Link from "next/link";
 import { ServiceModal } from "./ServiceModal";
+import { Clock } from "lucide-react";
 
 export function ServiceGrid({limit}:{limit?:number}){
   const list = limit ? services.slice(0,limit) : services;
@@ -27,7 +28,10 @@ export function ServiceGrid({limit}:{limit?:number}){
           <div key={s.id} className="card p-6 hover:shadow-lg transition-all duration-300 group">
             <div className="text-sm uppercase tracking-widest text-gold font-medium">{s.category}</div>
             <h3 className="text-2xl mt-1 font-serif group-hover:text-gold transition-colors">{s.name}</h3>
-            <p className="mt-2 text-gray-600 text-sm">⏱️ Duración ~{s.duration_min} min</p>
+            <div className="mt-2 flex items-center text-gray-600 text-sm">
+              <Clock className="w-4 h-4 mr-2 text-gold" />
+              <span>Duración ~{s.duration_min} min</span>
+            </div>
             {s.description && (
               <p className="mt-2 text-gray-600 text-sm line-clamp-2">{s.description}</p>
             )}

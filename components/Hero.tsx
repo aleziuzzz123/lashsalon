@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import { Sparkles, Shield, Target, Eye } from "lucide-react";
 
 export function Hero() {
   return (
@@ -12,7 +13,10 @@ export function Hero() {
       </div>
       <div className="container py-20 md:py-32 relative z-10">
         <div className="max-w-4xl">
-          <p className="tracking-[0.3em] text-gold uppercase text-xs md:text-sm font-medium">✨ Belleza de mirada</p>
+          <div className="flex items-center space-x-2 mb-4">
+            <Eye className="w-5 h-5 text-gold" />
+            <p className="tracking-[0.3em] text-gold uppercase text-xs md:text-sm font-medium">Belleza de mirada</p>
+          </div>
           <h1 className="mt-4 text-4xl md:text-6xl font-serif leading-tight">
             Extensiones & Lifting de pestañas con 
             <span className="text-gold"> acabado de lujo</span>
@@ -33,7 +37,7 @@ export function Hero() {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
-                <span className="text-gold">💎</span>
+                <Sparkles className="w-5 h-5 text-gold" />
               </div>
               <div>
                 <p className="font-semibold text-sm">Materiales Premium</p>
@@ -42,7 +46,7 @@ export function Hero() {
             </div>
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
-                <span className="text-gold">⏰</span>
+                <Shield className="w-5 h-5 text-gold" />
               </div>
               <div>
                 <p className="font-semibold text-sm">Garantía 48h</p>
@@ -51,7 +55,7 @@ export function Hero() {
             </div>
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center">
-                <span className="text-gold">🎯</span>
+                <Target className="w-5 h-5 text-gold" />
               </div>
               <div>
                 <p className="font-semibold text-sm">Diseño Personalizado</p>
