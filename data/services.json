@@ -5,7 +5,44 @@
     "category": "Extensiones de Pestañas",
     "price_mxn": 650,
     "duration_min": 120,
-    "description": "Extensiones individuales para un look natural y elegante"
+    "description": "Extensiones individuales para un look natural y elegante",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina R.",
+        "rating": 5,
+        "comment": "¡Perfectas! Se ven súper naturales y duran mucho tiempo. El servicio es impecable.",
+        "date": "2024-08-18"
+      },
+      {
+        "id": 2,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Me encanta cómo quedan. Son muy cómodas y se ven hermosas. ¡Recomendadísimo!",
+        "date": "2024-08-15"
+      },
+      {
+        "id": 3,
+        "name": "Sofia L.",
+        "rating": 4,
+        "comment": "Muy buenas, aunque esperaba que duraran un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-10"
+      },
+      {
+        "id": 4,
+        "name": "Camila M.",
+        "rating": 5,
+        "comment": "¡Increíble! Mis amigas no pueden creer que son extensiones. Se ven súper naturales.",
+        "date": "2024-08-05"
+      },
+      {
+        "id": 5,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "El mejor servicio de pestañas en Cancún. Profesionales y muy cuidadosas.",
+        "date": "2024-07-28"
+      }
+    ]
   },
   {
     "id": "hybrid_set",
@@ -13,7 +50,44 @@
     "category": "Extensiones de Pestañas",
     "price_mxn": 690,
     "duration_min": 130,
-    "description": "Combinación perfecta entre clásico y volumen"
+    "description": "Combinación perfecta entre clásico y volumen",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sofia M.",
+        "rating": 5,
+        "comment": "¡Me encanta! Es el look perfecto, ni muy natural ni muy dramático. ¡Perfecto para el día a día!",
+        "date": "2024-08-17"
+      },
+      {
+        "id": 2,
+        "name": "Isabella R.",
+        "rating": 5,
+        "comment": "El mejor servicio. Se ven hermosas y duran mucho tiempo. Las recomiendo al 100%.",
+        "date": "2024-08-14"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bonitas, aunque esperaba que fueran un poco más voluminosas. Pero el trabajo está perfecto.",
+        "date": "2024-08-11"
+      },
+      {
+        "id": 4,
+        "name": "Valentina T.",
+        "rating": 5,
+        "comment": "¡Increíble! Mis amigas no pueden creer que son extensiones. Se ven súper naturales.",
+        "date": "2024-08-07"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "El servicio más profesional que he recibido. ¡Definitivamente regresaré!",
+        "date": "2024-08-02"
+      }
+    ]
   },
   {
     "id": "volume_set",

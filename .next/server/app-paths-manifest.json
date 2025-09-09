@@ -3,13 +3,13 @@
   "/api/mp/webhook/route": "app/api/mp/webhook/route.js",
   "/api/mp/create-preference/route": "app/api/mp/create-preference/route.js",
   "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/account/page": "app/account/page.js",
   "/about/page": "app/about/page.js",
   "/book/page": "app/book/page.js",
-  "/account/page": "app/account/page.js",
-  "/gallery/page": "app/gallery/page.js",
   "/services/page": "app/services/page.js",
   "/shop/page": "app/shop/page.js",
   "/privacy/page": "app/privacy/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/terms/page": "app/terms/page.js"
+  "/terms/page": "app/terms/page.js",
+  "/gallery/page": "app/gallery/page.js"
 }

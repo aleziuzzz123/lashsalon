@@ -9,7 +9,44 @@
     "availability": "48 disponibles",
     "wholesale_note": "*Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/GLUE STOP.png"
+    "image": "/images/products/GLUE STOP.png",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "María González",
+        "rating": 5,
+        "comment": "¡Increíble producto! Desde que lo uso, ya no tengo dolores de cabeza por los humos del adhesivo. Mis clientas también lo notan.",
+        "date": "2024-08-15"
+      },
+      {
+        "id": 2,
+        "name": "Ana Lash Studio",
+        "rating": 5,
+        "comment": "Esencial en mi salón. El aroma es muy agradable y realmente funciona. Lo recomiendo al 100%.",
+        "date": "2024-08-10"
+      },
+      {
+        "id": 3,
+        "name": "Carla Mendez",
+        "rating": 5,
+        "comment": "Me cambió la vida laboral. Ya no me duele la cabeza después de trabajar todo el día. ¡Excelente!",
+        "date": "2024-08-05"
+      },
+      {
+        "id": 4,
+        "name": "Lash Queen",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero definitivamente funciona.",
+        "date": "2024-07-28"
+      },
+      {
+        "id": 5,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas ya no se quejan de los olores fuertes. Muy profesional.",
+        "date": "2024-07-20"
+      }
+    ]
   },
   {
     "id": "glue_stop_80gr",
@@ -21,7 +58,37 @@
     "availability": "48 disponibles",
     "wholesale_note": "*Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/gluestop 80.png"
+    "image": "/images/products/gluestop 80.png",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "Perfecto para mi kit de viaje. Tamaño ideal y funciona igual de bien que el grande.",
+        "date": "2024-08-12"
+      },
+      {
+        "id": 2,
+        "name": "Lash Pro Studio",
+        "rating": 5,
+        "comment": "Excelente calidad, mismo resultado que el de 100gr. Muy práctico para espacios pequeños.",
+        "date": "2024-08-08"
+      },
+      {
+        "id": 3,
+        "name": "Isabella Torres",
+        "rating": 4,
+        "comment": "Muy bueno, aunque se acaba más rápido. Pero es perfecto para mi salón pequeño.",
+        "date": "2024-07-30"
+      },
+      {
+        "id": 4,
+        "name": "Camila Lash",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas aman el aroma y yo me siento más segura trabajando.",
+        "date": "2024-07-25"
+      }
+    ]
   },
   {
     "id": "cinta_micropore",
@@ -33,7 +100,37 @@
     "availability": "995 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo",
     "category": "Profesional",
-    "image": "/images/products/CINTA MICROPORE.png"
+    "image": "/images/products/CINTA MICROPORE.png",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Lash Studio Pro",
+        "rating": 5,
+        "comment": "La mejor cinta que he usado. No deja residuos y es súper suave con la piel de mis clientas.",
+        "date": "2024-08-16"
+      },
+      {
+        "id": 2,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "Excelente calidad. Mis clientas no se quejan de irritación. ¡La recomiendo!",
+        "date": "2024-08-12"
+      },
+      {
+        "id": 3,
+        "name": "Ana Lash",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque a veces se pega un poco fuerte. Pero funciona perfecto.",
+        "date": "2024-08-08"
+      },
+      {
+        "id": 4,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Perfecta! No lastima al retirar y adhiere muy bien. Calidad profesional.",
+        "date": "2024-08-03"
+      }
+    ]
   },
   {
     "id": "glue_sticker",

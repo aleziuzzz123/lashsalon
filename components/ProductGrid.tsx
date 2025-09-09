@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import products from "@/data/products.json";
-import { Sparkles, ShoppingCart, Eye } from "lucide-react";
+import { Sparkles, ShoppingCart, Eye, Heart } from "lucide-react";
 import { ProductModal } from './ProductModal';
 
 // Function to get the correct image filename for each product
@@ -45,6 +45,7 @@ const getMicroBrushImage = () => {
 export function ProductGrid({limit}:{limit?:number}){
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   
   const list = limit ? products.slice(0,limit) : products;
   
@@ -56,6 +57,18 @@ export function ProductGrid({limit}:{limit?:number}){
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedProduct(null);
+  };
+
+  const toggleFavorite = (productId: string) => {
+    setFavorites(prev => {
+      const newFavorites = new Set(prev);
+      if (newFavorites.has(productId)) {
+        newFavorites.delete(productId);
+      } else {
+        newFavorites.add(productId);
+      }
+      return newFavorites;
+    });
   };
   
   return (
@@ -70,7 +83,17 @@ export function ProductGrid({limit}:{limit?:number}){
                           className="w-full h-full object-cover"
                         />
             <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
-            <div className="absolute top-3 right-3">
+            <div className="absolute top-3 right-3 flex gap-2">
+              <button
+                onClick={() => toggleFavorite(p.id)}
+                className={`w-8 h-8 backdrop-blur-sm rounded-full flex items-center justify-center transition-all ${
+                  favorites.has(p.id)
+                    ? 'bg-theme/90 hover:bg-theme'
+                    : 'bg-white/20 hover:bg-white/30'
+                }`}
+              >
+                <Heart className={`w-4 h-4 ${favorites.has(p.id) ? 'text-white fill-current' : 'text-white'}`} />
+              </button>
               <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
                 <Sparkles className="w-4 h-4 text-white" />
               </div>

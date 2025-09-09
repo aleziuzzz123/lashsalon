@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { X, Clock, Star, CheckCircle, Heart, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { ReviewCarousel } from './ReviewCarousel';
 
 interface Service {
   id: string;
@@ -11,6 +12,13 @@ interface Service {
   duration_min: number;
   description: string;
   image?: string;
+  reviews?: Array<{
+    id: number;
+    name: string;
+    rating: number;
+    comment: string;
+    date: string;
+  }>;
 }
 
 interface ServiceModalProps {
@@ -186,6 +194,13 @@ export function ServiceModal({ service, isOpen, onClose }: ServiceModalProps) {
                 ))}
               </div>
             </div>
+
+            {/* Reviews Section */}
+            {service.reviews && service.reviews.length > 0 && (
+              <div>
+                <ReviewCarousel reviews={service.reviews} title="Reseñas de Clientes" />
+              </div>
+            )}
 
             {/* CTA Buttons */}
             <div className="flex gap-4 pt-4">

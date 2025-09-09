@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight, ShoppingCart, Star, Shield, Truck, Heart } from 'lucide-react';
 import products from '@/data/products.json';
+import { ReviewCarousel } from './ReviewCarousel';
 
 interface ProductModalProps {
   product: any;
@@ -12,6 +13,7 @@ interface ProductModalProps {
 
 export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isFavorite, setIsFavorite] = useState(false);
 
   // Get all images for this product
   const getProductImages = (productId: string) => {
@@ -214,6 +216,13 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
               </div>
             )}
 
+            {/* Reviews Section */}
+            {product.reviews && product.reviews.length > 0 && (
+              <div className="mb-6">
+                <ReviewCarousel reviews={product.reviews} title="Reseñas de Clientes" />
+              </div>
+            )}
+
             {/* Actions */}
             <div className="mt-auto pt-6 border-t border-gray-200">
               <div className="flex gap-4">
@@ -221,8 +230,15 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                   <ShoppingCart className="w-5 h-5" />
                   Agregar al Carrito
                 </button>
-                <button className="w-12 h-12 bg-gray-100 hover:bg-gray-200 rounded-xl flex items-center justify-center transition-colors">
-                  <Heart className="w-5 h-5 text-gray-600" />
+                <button 
+                  onClick={() => setIsFavorite(!isFavorite)}
+                  className={`w-12 h-12 rounded-xl flex items-center justify-center transition-colors ${
+                    isFavorite 
+                      ? 'bg-theme hover:bg-theme/90' 
+                      : 'bg-gray-100 hover:bg-gray-200'
+                  }`}
+                >
+                  <Heart className={`w-5 h-5 ${isFavorite ? 'text-white fill-current' : 'text-gray-600'}`} />
                 </button>
               </div>
               
