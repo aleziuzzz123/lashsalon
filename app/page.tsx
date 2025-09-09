@@ -24,15 +24,16 @@ export default function Home() {
           
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-video bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden group cursor-pointer">
-              {/* Video Placeholder Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-theme/20 via-theme/10 to-themeDark/30"></div>
-              
-              {/* Play Button Overlay */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
-                  <Play className="w-8 h-8 text-theme ml-1" fill="currentColor" />
-                </div>
-              </div>
+              {/* Video Element */}
+              <video 
+                className="w-full h-full object-cover"
+                poster="/images/homepage/video-poster.jpg"
+                controls
+                preload="metadata"
+              >
+                <source src="/videos/02cWMXRt-33883556.mp4" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
               
               {/* Video Title Overlay */}
               <div className="absolute bottom-6 left-6 right-6">
@@ -138,7 +139,161 @@ export default function Home() {
             </p>
           </div>
           
-          <ServiceGrid limit={6} />
+          {/* Featured Services with Images */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {/* Extensiones Clásicas */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/classic-extensions.jpg" 
+                  alt="Extensiones Clásicas"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Sparkles className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Clásicas</h3>
+              <p className="text-gray-600 text-sm mb-3">Look natural y elegante</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$650 MXN</span>
+                <Link href="/book?service=classic_set" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+
+            {/* Extensiones Híbridas */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/hybrid-extensions.jpg" 
+                  alt="Extensiones Híbridas"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Heart className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Híbridas</h3>
+              <p className="text-gray-600 text-sm mb-3">Combinación perfecta</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$690 MXN</span>
+                <Link href="/book?service=hybrid_set" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+
+            {/* Extensiones Volumen */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/volume-extensions.jpg" 
+                  alt="Extensiones Volumen"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Star className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Volumen</h3>
+              <p className="text-gray-600 text-sm mb-3">Máximo impacto</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$750 MXN</span>
+                <Link href="/book?service=volume_set" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+
+            {/* Extensiones Mega Volumen */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/mega-volume-extensions.jpg" 
+                  alt="Extensiones Mega Volumen"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Sparkles className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Mega Volumen</h3>
+              <p className="text-gray-600 text-sm mb-3">Look más dramático</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$890 MXN</span>
+                <Link href="/book?service=mega_volume" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+
+            {/* Extensiones Wet Look */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/wet-look-extensions.jpg" 
+                  alt="Extensiones Wet Look"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Heart className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Wet Look</h3>
+              <p className="text-gray-600 text-sm mb-3">Efecto mojado fresco</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$790 MXN</span>
+                <Link href="/book?service=wet_look" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+
+            {/* Extensiones Kim K */}
+            <div className="group cursor-pointer">
+              <div className="aspect-[4/3] bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 relative">
+                <img 
+                  src="/images/services/kim-k-extensions.jpg" 
+                  alt="Extensiones Kim K"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute top-4 right-4">
+                  <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <Star className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Kim K</h3>
+              <p className="text-gray-600 text-sm mb-3">Estilo Kardashian</p>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-theme">$790 MXN</span>
+                <Link href="/book?service=kim_k" className="btn btn-primary text-sm px-4 py-2">
+                  Reservar
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Services Grid */}
+        <ServiceGrid limit={6} />
           
           <div className="text-center mt-12">
             <Link href="/services" className="btn btn-primary text-lg px-8 py-4">
