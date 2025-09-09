@@ -22,8 +22,22 @@
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
       "static/chunks/484-5468eefefb79c4fc.js",
-      "static/chunks/107-8b177eb25e9481f9.js",
+      "static/chunks/107-8e3bc41ca0def361.js",
       "static/chunks/app/page-f127e6fcc6a2756f.js"
+    ],
+    "/account/page": [
+      "static/chunks/webpack-95e3178aa80ebd01.js",
+      "static/chunks/fd9d1056-83701e137505fb90.js",
+      "static/chunks/23-886870f631b343ea.js",
+      "static/chunks/main-app-c7bfe5a398236636.js",
+      "static/chunks/app/account/page-e8db5bfb831c75c4.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-95e3178aa80ebd01.js",
+      "static/chunks/fd9d1056-83701e137505fb90.js",
+      "static/chunks/23-886870f631b343ea.js",
+      "static/chunks/main-app-c7bfe5a398236636.js",
+      "static/chunks/app/about/page-3db9ecb7a4cda7c8.js"
     ],
     "/book/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
@@ -32,33 +46,12 @@
       "static/chunks/main-app-c7bfe5a398236636.js",
       "static/chunks/app/book/page-46ef14dea4e2150a.js"
     ],
-    "/account/page": [
-      "static/chunks/webpack-95e3178aa80ebd01.js",
-      "static/chunks/fd9d1056-83701e137505fb90.js",
-      "static/chunks/23-886870f631b343ea.js",
-      "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/account/page-5f6f9e908535d8e8.js"
-    ],
-    "/shop/page": [
-      "static/chunks/webpack-95e3178aa80ebd01.js",
-      "static/chunks/fd9d1056-83701e137505fb90.js",
-      "static/chunks/23-886870f631b343ea.js",
-      "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/shop/page-5964bba5e0879251.js"
-    ],
     "/contact/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
       "static/chunks/fd9d1056-83701e137505fb90.js",
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/contact/page-df0b5c07c9cc6352.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-95e3178aa80ebd01.js",
-      "static/chunks/fd9d1056-83701e137505fb90.js",
-      "static/chunks/23-886870f631b343ea.js",
-      "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/about/page-066b251fa1dbaa28.js"
+      "static/chunks/app/contact/page-e6637bd6804b5ecc.js"
     ],
     "/services/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
@@ -66,29 +59,36 @@
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
       "static/chunks/484-5468eefefb79c4fc.js",
-      "static/chunks/107-8b177eb25e9481f9.js",
+      "static/chunks/107-8e3bc41ca0def361.js",
       "static/chunks/app/services/page-9b0bc0a0d5dd4770.js"
+    ],
+    "/shop/page": [
+      "static/chunks/webpack-95e3178aa80ebd01.js",
+      "static/chunks/fd9d1056-83701e137505fb90.js",
+      "static/chunks/23-886870f631b343ea.js",
+      "static/chunks/main-app-c7bfe5a398236636.js",
+      "static/chunks/app/shop/page-215c2539622b5666.js"
     ],
     "/privacy/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
       "static/chunks/fd9d1056-83701e137505fb90.js",
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/privacy/page-45397953e8e3af0a.js"
+      "static/chunks/app/privacy/page-11e56dff15443d37.js"
     ],
     "/terms/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
       "static/chunks/fd9d1056-83701e137505fb90.js",
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/terms/page-87322123737c29d9.js"
+      "static/chunks/app/terms/page-fb48112666d06e93.js"
     ],
     "/gallery/page": [
       "static/chunks/webpack-95e3178aa80ebd01.js",
       "static/chunks/fd9d1056-83701e137505fb90.js",
       "static/chunks/23-886870f631b343ea.js",
       "static/chunks/main-app-c7bfe5a398236636.js",
-      "static/chunks/app/gallery/page-a857c6827d7cb8b4.js"
+      "static/chunks/app/gallery/page-c39ee99e5c152b19.js"
     ]
   }
 }

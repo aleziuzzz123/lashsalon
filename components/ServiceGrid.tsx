@@ -11,7 +11,7 @@ const getServiceImage = (serviceId: string) => {
   const imageMap: { [key: string]: string } = {
     'classic_set': 'Extensiones Clásicas.png',
     'hybrid_set': 'Extensiones Híbridas.png',
-    'volume_set': 'Extensiones Volumen.png',
+    'volume_set': ' Extensiones Volumen.png',
     'mega_volume': 'Extensiones Mega Volumen.png',
     'wet_look': 'Extensiones Wet Look.png',
     'kim_k': 'Extensiones Kim K.png',
