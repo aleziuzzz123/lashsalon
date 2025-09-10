@@ -4,7 +4,6 @@ import { Hero } from "@/components/Hero";
 import { ServiceGrid } from "@/components/ServiceGrid";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SalonGallery } from "@/components/SalonGallery";
-import { ServiceShowcase } from "@/components/ServiceShowcase";
 import { Star, Heart, Sparkles, Clock, Shield, Users, ArrowRight, CheckCircle, Play } from "lucide-react";
 
 export default function Home() {
@@ -86,8 +85,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Showcase Section */}
-      <ServiceShowcase />
 
       {/* Why Choose Us Section */}
       <section className="py-20 bg-gradient-to-br from-softPink/30 via-warmWhite to-blush/20">
