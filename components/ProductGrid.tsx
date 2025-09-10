@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import products from "@/data/products.json";
-import { Sparkles, ShoppingCart, Eye, Heart } from "lucide-react";
+import { Sparkles, ShoppingCart, Eye, Heart, Star } from "lucide-react";
 import { ProductModal } from './ProductModal';
 
 // Function to get the correct image filename for each product
@@ -70,6 +70,23 @@ export function ProductGrid({limit}:{limit?:number}){
       return newFavorites;
     });
   };
+
+  const getAverageRating = (product: any) => {
+    if (!product.reviews || product.reviews.length === 0) return 5;
+    const sum = product.reviews.reduce((acc: number, review: any) => acc + review.rating, 0);
+    return Math.round(sum / product.reviews.length);
+  };
+
+  const renderStars = (rating: number) => {
+    return Array.from({ length: 5 }, (_, index) => (
+      <Star
+        key={index}
+        className={`w-4 h-4 ${
+          index < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
+        }`}
+      />
+    ));
+  };
   
   return (
     <>
@@ -119,6 +136,16 @@ export function ProductGrid({limit}:{limit?:number}){
             {p.availability && (
               <p className="text-xs text-gray-500 mt-1">{p.availability}</p>
             )}
+            
+            {/* Star Rating */}
+            <div className="mt-2 flex items-center gap-2">
+              <div className="flex items-center">
+                {renderStars(getAverageRating(p))}
+              </div>
+              <span className="text-sm text-gray-500">
+                ({p.reviews ? p.reviews.length : 0} reseñas)
+              </span>
+            </div>
             
             <div className="mt-3 flex items-center justify-between">
               <span className="text-2xl font-bold text-gold">${p.price_mxn} MXN</span>

@@ -72,6 +72,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
       
       {/* Modal */}
       <div className="relative bg-white rounded-3xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
+        <div className="max-h-[90vh] overflow-y-auto">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -247,6 +248,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
               )}
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
