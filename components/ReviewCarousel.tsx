@@ -69,24 +69,27 @@ export function ReviewCarousel({ reviews, title = "Reseñas de Clientes" }: Revi
   const currentReview = reviews[currentReviewIndex];
 
   return (
-    <div className="bg-gradient-to-br from-warmWhite to-softPink/20 rounded-2xl p-6">
+    <div className="bg-gradient-to-br from-gold/5 to-rose/10 rounded-2xl p-6 border border-gold/20">
       <div className="flex items-center justify-between mb-6">
-        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
+        <h3 className="text-xl font-bold text-charcoal flex items-center gap-2">
+          <Star className="w-5 h-5 text-gold fill-current" />
+          {title}
+        </h3>
         <div className="flex items-center space-x-2">
-          <span className="text-sm text-gray-600">
+          <span className="text-sm text-gray-600 bg-white/60 px-3 py-1 rounded-full">
             {currentReviewIndex + 1} de {reviews.length}
           </span>
           {isHovered && (
             <div className="flex items-center space-x-1">
               <button
                 onClick={prevReview}
-                className="p-1 rounded-full hover:bg-theme/20 transition-colors"
+                className="p-2 rounded-full hover:bg-theme/20 transition-colors bg-white/60"
               >
                 <ChevronLeft className="w-4 h-4 text-theme" />
               </button>
               <button
                 onClick={nextReview}
-                className="p-1 rounded-full hover:bg-theme/20 transition-colors"
+                className="p-2 rounded-full hover:bg-theme/20 transition-colors bg-white/60"
               >
                 <ChevronRight className="w-4 h-4 text-theme" />
               </button>
@@ -100,38 +103,38 @@ export function ReviewCarousel({ reviews, title = "Reseñas de Clientes" }: Revi
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="bg-white rounded-xl p-6 shadow-lg border border-softPink/20">
+        <div className="bg-white rounded-xl p-6 shadow-xl border border-gold/30">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h4 className="font-semibold text-gray-800">{currentReview.name}</h4>
-              <div className="flex items-center space-x-1 mt-1">
+              <h4 className="font-bold text-charcoal text-lg">{currentReview.name}</h4>
+              <div className="flex items-center space-x-1 mt-2">
                 {renderStars(currentReview.rating)}
-                <span className="text-sm text-gray-500 ml-2">
+                <span className="text-sm text-gold font-semibold ml-2">
                   {currentReview.rating}/5
                 </span>
               </div>
             </div>
-            <span className="text-sm text-gray-500">
+            <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
               {new Date(currentReview.date).toLocaleDateString('es-MX')}
             </span>
           </div>
           
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed text-base italic">
             "{currentReview.comment}"
           </p>
         </div>
 
         {/* Navigation dots */}
         {reviews.length > 1 && (
-          <div className="flex justify-center space-x-2 mt-4">
+          <div className="flex justify-center space-x-2 mt-6">
             {reviews.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentReviewIndex(index)}
-                className={`w-2 h-2 rounded-full transition-all ${
+                className={`h-2 rounded-full transition-all duration-300 ${
                   index === currentReviewIndex
-                    ? 'bg-theme w-6'
-                    : 'bg-gray-300 hover:bg-theme/50'
+                    ? 'bg-gold w-8'
+                    : 'bg-gray-300 hover:bg-gold/50 w-2'
                 }`}
               />
             ))}
@@ -142,9 +145,9 @@ export function ReviewCarousel({ reviews, title = "Reseñas de Clientes" }: Revi
       {/* Auto-scroll indicator */}
       {reviews.length > 1 && (
         <div className="flex items-center justify-center mt-4">
-          <div className="flex items-center space-x-2 text-sm text-gray-500">
-            <div className={`w-2 h-2 rounded-full ${isHovered ? 'bg-gray-300' : 'bg-theme'}`} />
-            <span>{isHovered ? 'Pausado' : 'Auto-scroll'}</span>
+          <div className="flex items-center space-x-2 text-sm text-gray-600 bg-white/60 px-4 py-2 rounded-full">
+            <div className={`w-2 h-2 rounded-full ${isHovered ? 'bg-gray-400' : 'bg-gold'}`} />
+            <span className="font-medium">{isHovered ? 'Pausado' : 'Auto-scroll'}</span>
           </div>
         </div>
       )}

@@ -95,7 +95,114 @@
     "category": "Extensiones de Pestañas",
     "price_mxn": 750,
     "duration_min": 140,
-    "description": "Múltiples extensiones por pestaña natural para máximo impacto"
+    "description": "Múltiples extensiones por pestaña natural para máximo impacto",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Increíble! El volumen es perfecto, se ven súper dramáticas pero elegantes. Mis amigas están obsesionadas.",
+        "date": "2024-08-16"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de volumen en Cancún. Se ven espectaculares y duran mucho tiempo. ¡Recomendadísimo!",
+        "date": "2024-08-13"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bonitas, aunque al principio se sienten un poco pesadas. Pero el resultado vale la pena.",
+        "date": "2024-08-09"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Perfectas! El volumen es exactamente lo que quería. Se ven hermosas y naturales al mismo tiempo.",
+        "date": "2024-08-06"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Increíble servicio. El volumen es perfecto y el trabajo es impecable. Definitivamente regresaré.",
+        "date": "2024-08-01"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! El volumen es espectacular. Mis clientas no pueden creer que son extensiones.",
+        "date": "2024-07-28"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy buenas, aunque esperaba que duraran un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-07-24"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! El volumen es perfecto para mi estilo. Se ven súper elegantes y dramáticas.",
+        "date": "2024-07-20"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de pestañas que he recibido. El volumen es espectacular y duran mucho tiempo.",
+        "date": "2024-07-16"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! El volumen es exactamente lo que necesitaba. Se ven hermosas y naturales.",
+        "date": "2024-07-12"
+      },
+      {
+        "id": 11,
+        "name": "Camila Studio",
+        "rating": 4,
+        "comment": "Muy buenas, aunque el precio es un poco alto. Pero vale la pena por la calidad del trabajo.",
+        "date": "2024-07-08"
+      },
+      {
+        "id": 12,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! El volumen es perfecto. Mis amigas están obsesionadas con mis pestañas.",
+        "date": "2024-07-04"
+      },
+      {
+        "id": 13,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "El mejor servicio de volumen en Cancún. Se ven espectaculares y duran mucho tiempo.",
+        "date": "2024-06-30"
+      },
+      {
+        "id": 14,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfectas! El volumen es exactamente lo que quería. Se ven hermosas y elegantes.",
+        "date": "2024-06-26"
+      },
+      {
+        "id": 15,
+        "name": "Lash Queen Pro",
+        "rating": 4,
+        "comment": "Muy buenas, aunque esperaba que fueran un poco más voluminosas. Pero el trabajo está perfecto.",
+        "date": "2024-06-22"
+      }
+    ]
   },
   {
     "id": "mega_volume",
@@ -103,7 +210,114 @@
     "category": "Extensiones de Pestañas",
     "price_mxn": 890,
     "duration_min": 150,
-    "description": "El look más dramático y llamativo"
+    "description": "El look más dramático y llamativo",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡ESPECTACULAR! El mega volumen es increíble, se ven súper dramáticas y hermosas. ¡Mis amigas están obsesionadas!",
+        "date": "2024-08-15"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de mega volumen en Cancún. Se ven absolutamente espectaculares. ¡Recomendadísimo!",
+        "date": "2024-08-12"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy dramáticas, aunque al principio se sienten un poco pesadas. Pero el resultado es espectacular.",
+        "date": "2024-08-08"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡INCREÍBLE! El mega volumen es exactamente lo que quería. Se ven súper dramáticas y elegantes.",
+        "date": "2024-08-05"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Espectacular servicio. El mega volumen es perfecto y el trabajo es impecable. Definitivamente regresaré.",
+        "date": "2024-07-31"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! El mega volumen es espectacular. Mis clientas no pueden creer que son extensiones.",
+        "date": "2024-07-27"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy dramáticas, aunque esperaba que duraran un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-07-23"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡INCREÍBLE! El mega volumen es perfecto para mi estilo. Se ven súper dramáticas y hermosas.",
+        "date": "2024-07-19"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de pestañas que he recibido. El mega volumen es espectacular y duran mucho tiempo.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! El mega volumen es exactamente lo que necesitaba. Se ven hermosas y dramáticas.",
+        "date": "2024-07-11"
+      },
+      {
+        "id": 11,
+        "name": "Camila Studio",
+        "rating": 4,
+        "comment": "Muy dramáticas, aunque el precio es un poco alto. Pero vale la pena por la calidad del trabajo.",
+        "date": "2024-07-07"
+      },
+      {
+        "id": 12,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡INCREÍBLE! El mega volumen es perfecto. Mis amigas están obsesionadas con mis pestañas.",
+        "date": "2024-07-03"
+      },
+      {
+        "id": 13,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "El mejor servicio de mega volumen en Cancún. Se ven absolutamente espectaculares.",
+        "date": "2024-06-29"
+      },
+      {
+        "id": 14,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfectas! El mega volumen es exactamente lo que quería. Se ven hermosas y dramáticas.",
+        "date": "2024-06-25"
+      },
+      {
+        "id": 15,
+        "name": "Lash Queen Pro",
+        "rating": 4,
+        "comment": "Muy dramáticas, aunque esperaba que fueran un poco más voluminosas. Pero el trabajo está perfecto.",
+        "date": "2024-06-21"
+      }
+    ]
   },
   {
     "id": "brow_lifting",
