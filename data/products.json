@@ -45,6 +45,146 @@
         "rating": 5,
         "comment": "¡Perfecto! Mis clientas ya no se quejan de los olores fuertes. Muy profesional.",
         "date": "2024-07-20"
+      },
+      {
+        "id": 6,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor producto que he comprado para mi salón. Mis clientas aman el aroma y yo me siento más segura.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 7,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Increíble! Realmente neutraliza los humos del adhesivo. Mis dolores de cabeza desaparecieron.",
+        "date": "2024-07-10"
+      },
+      {
+        "id": 8,
+        "name": "Camila Lash Pro",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-05"
+      },
+      {
+        "id": 9,
+        "name": "Valentina Mendez",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas ya no se quejan de irritación en los ojos. Lo recomiendo.",
+        "date": "2024-06-28"
+      },
+      {
+        "id": 10,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente producto. El aroma es muy agradable y realmente funciona. Mis clientas lo notan.",
+        "date": "2024-06-22"
+      },
+      {
+        "id": 11,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Increíble! Desde que lo uso, mi salón huele mucho mejor. Mis clientas están encantadas.",
+        "date": "2024-06-18"
+      },
+      {
+        "id": 12,
+        "name": "Carla Ruiz",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más grande. Pero funciona perfectamente.",
+        "date": "2024-06-12"
+      },
+      {
+        "id": 13,
+        "name": "Lash Studio Pro",
+        "rating": 5,
+        "comment": "El mejor producto para profesionales. Mis clientas ya no se quejan de los olores fuertes.",
+        "date": "2024-06-08"
+      },
+      {
+        "id": 14,
+        "name": "Valentina Lash",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis dolores de cabeza por los humos desaparecieron. Lo recomiendo al 100%.",
+        "date": "2024-06-03"
+      },
+      {
+        "id": 15,
+        "name": "Sofia Elena",
+        "rating": 5,
+        "comment": "Excelente calidad. Mis clientas aman el aroma y yo me siento más cómoda trabajando.",
+        "date": "2024-05-28"
+      },
+      {
+        "id": 16,
+        "name": "Isabella Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el envase podría ser más resistente. Pero el producto funciona bien.",
+        "date": "2024-05-22"
+      },
+      {
+        "id": 17,
+        "name": "Camila Studio",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas ya no se quejan de irritación. El aroma es muy agradable.",
+        "date": "2024-05-18"
+      },
+      {
+        "id": 18,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "El mejor producto que he usado. Mis dolores de cabeza por los humos desaparecieron.",
+        "date": "2024-05-12"
+      },
+      {
+        "id": 19,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas están encantadas con el aroma. Muy profesional.",
+        "date": "2024-05-08"
+      },
+      {
+        "id": 20,
+        "name": "Carla Sofia",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara más tiempo. Pero funciona perfectamente.",
+        "date": "2024-05-03"
+      },
+      {
+        "id": 21,
+        "name": "Lash Queen Pro",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas ya no se quejan de los olores fuertes. Lo recomiendo.",
+        "date": "2024-04-28"
+      },
+      {
+        "id": 22,
+        "name": "Valentina Studio",
+        "rating": 5,
+        "comment": "Excelente producto. Mis dolores de cabeza por los humos desaparecieron completamente.",
+        "date": "2024-04-22"
+      },
+      {
+        "id": 23,
+        "name": "Sofia Lash",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas aman el aroma y yo me siento más segura trabajando.",
+        "date": "2024-04-18"
+      },
+      {
+        "id": 24,
+        "name": "Isabella Ruiz",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-04-12"
+      },
+      {
+        "id": 25,
+        "name": "Camila Mendez",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas ya no se quejan de irritación en los ojos. Muy profesional.",
+        "date": "2024-04-08"
       }
     ]
   },
@@ -87,6 +227,153 @@
         "rating": 5,
         "comment": "¡Increíble! Mis clientas aman el aroma y yo me siento más segura trabajando.",
         "date": "2024-07-25"
+      },
+      {
+        "id": 5,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecto! Tamaño ideal para mi estación de trabajo. Funciona igual de bien que el grande.",
+        "date": "2024-07-20"
+      },
+      {
+        "id": 6,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "Excelente para profesionales en movimiento. Mismo resultado, más práctico.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 7,
+        "name": "Ana Sofia",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara más. Pero es perfecto para espacios pequeños.",
+        "date": "2024-07-10"
+      },
+      {
+        "id": 8,
+        "name": "Carla Mendez",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas ya no se quejan de los olores fuertes. Muy práctico.",
+        "date": "2024-07-05"
+      },
+      {
+        "id": 9,
+        "name": "Lash Queen Studio",
+        "rating": 5,
+        "comment": "El mejor tamaño para mi salón pequeño. Mis clientas aman el aroma.",
+        "date": "2024-06-28"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Lash",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis dolores de cabeza por los humos desaparecieron. Muy práctico.",
+        "date": "2024-06-22"
+      },
+      {
+        "id": 11,
+        "name": "Sofia Elena",
+        "rating": 4,
+        "comment": "Muy bueno, aunque se acaba más rápido que el grande. Pero funciona bien.",
+        "date": "2024-06-18"
+      },
+      {
+        "id": 12,
+        "name": "Valentina Studio",
+        "rating": 5,
+        "comment": "Excelente para mi kit de viaje. Mismo resultado que el de 100gr.",
+        "date": "2024-06-12"
+      },
+      {
+        "id": 13,
+        "name": "Camila Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas ya no se quejan de irritación. Muy profesional.",
+        "date": "2024-06-08"
+      },
+      {
+        "id": 14,
+        "name": "María José",
+        "rating": 5,
+        "comment": "El mejor tamaño para espacios pequeños. Mis clientas están encantadas.",
+        "date": "2024-06-03"
+      },
+      {
+        "id": 15,
+        "name": "Ana Valentina",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara más tiempo. Pero funciona perfectamente.",
+        "date": "2024-05-28"
+      },
+      {
+        "id": 16,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas aman el aroma y yo me siento más cómoda trabajando.",
+        "date": "2024-05-22"
+      },
+      {
+        "id": 17,
+        "name": "Lash Pro Elena",
+        "rating": 5,
+        "comment": "Excelente para profesionales en movimiento. Mismo resultado, más práctico.",
+        "date": "2024-05-18"
+      },
+      {
+        "id": 18,
+        "name": "Isabella Mendez",
+        "rating": 5,
+        "comment": "¡Increíble! Mis dolores de cabeza por los humos desaparecieron. Muy práctico.",
+        "date": "2024-05-12"
+      },
+      {
+        "id": 19,
+        "name": "Sofia Lash",
+        "rating": 4,
+        "comment": "Muy bueno, aunque se acaba más rápido. Pero es perfecto para mi salón pequeño.",
+        "date": "2024-05-08"
+      },
+      {
+        "id": 20,
+        "name": "Valentina Mendez",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas ya no se quejan de los olores fuertes. Muy profesional.",
+        "date": "2024-05-03"
+      },
+      {
+        "id": 21,
+        "name": "Camila Studio",
+        "rating": 5,
+        "comment": "El mejor tamaño para mi estación de trabajo. Funciona igual de bien que el grande.",
+        "date": "2024-04-28"
+      },
+      {
+        "id": 22,
+        "name": "María Lash",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas aman el aroma y yo me siento más segura trabajando.",
+        "date": "2024-04-22"
+      },
+      {
+        "id": 23,
+        "name": "Ana Elena",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara más. Pero es perfecto para espacios pequeños.",
+        "date": "2024-04-18"
+      },
+      {
+        "id": 24,
+        "name": "Carla Valentina",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas ya no se quejan de irritación en los ojos. Muy práctico.",
+        "date": "2024-04-12"
+      },
+      {
+        "id": 25,
+        "name": "Lash Queen Elena",
+        "rating": 5,
+        "comment": "Excelente para mi kit de viaje. Mismo resultado que el de 100gr. Muy práctico.",
+        "date": "2024-04-08"
       }
     ]
   },
@@ -129,6 +416,188 @@
         "rating": 5,
         "comment": "¡Perfecta! No lastima al retirar y adhiere muy bien. Calidad profesional.",
         "date": "2024-08-03"
+      },
+      {
+        "id": 5,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas no se quejan de irritación. La mejor cinta que he usado.",
+        "date": "2024-07-28"
+      },
+      {
+        "id": 6,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "Excelente calidad. No deja residuos y es súper suave con la piel. Lo recomiendo.",
+        "date": "2024-07-22"
+      },
+      {
+        "id": 7,
+        "name": "Camila Lash",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque a veces se pega un poco fuerte. Pero funciona bien.",
+        "date": "2024-07-18"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas están encantadas. No lastima al retirar y adhiere muy bien.",
+        "date": "2024-07-14"
+      },
+      {
+        "id": 9,
+        "name": "María José",
+        "rating": 5,
+        "comment": "La mejor cinta para profesionales. Mis clientas no se quejan de irritación.",
+        "date": "2024-07-10"
+      },
+      {
+        "id": 10,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Increíble! No deja residuos y es súper suave con la piel. Calidad profesional.",
+        "date": "2024-07-06"
+      },
+      {
+        "id": 11,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-07-02"
+      },
+      {
+        "id": 12,
+        "name": "Lash Queen Studio",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas aman que no lastima al retirar. La recomiendo al 100%.",
+        "date": "2024-06-28"
+      },
+      {
+        "id": 13,
+        "name": "Isabella Lash",
+        "rating": 5,
+        "comment": "Excelente calidad. Mis clientas no se quejan de irritación. Muy profesional.",
+        "date": "2024-06-24"
+      },
+      {
+        "id": 14,
+        "name": "Sofia Elena",
+        "rating": 5,
+        "comment": "¡Increíble! No deja residuos y es súper suave con la piel. Mis clientas están encantadas.",
+        "date": "2024-06-20"
+      },
+      {
+        "id": 15,
+        "name": "Valentina Studio",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque a veces se pega un poco fuerte. Pero funciona bien.",
+        "date": "2024-06-16"
+      },
+      {
+        "id": 16,
+        "name": "Camila Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas ya no se quejan de irritación. Calidad profesional.",
+        "date": "2024-06-12"
+      },
+      {
+        "id": 17,
+        "name": "María Lash",
+        "rating": 5,
+        "comment": "La mejor cinta que he usado. No lastima al retirar y adhiere muy bien.",
+        "date": "2024-06-08"
+      },
+      {
+        "id": 18,
+        "name": "Ana Elena",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas aman que no deja residuos. Muy profesional.",
+        "date": "2024-06-04"
+      },
+      {
+        "id": 19,
+        "name": "Carla Valentina",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-05-30"
+      },
+      {
+        "id": 20,
+        "name": "Lash Pro Elena",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas no se quejan de irritación. La recomiendo al 100%.",
+        "date": "2024-05-26"
+      },
+      {
+        "id": 21,
+        "name": "Isabella Mendez",
+        "rating": 5,
+        "comment": "Excelente calidad. No deja residuos y es súper suave con la piel. Muy profesional.",
+        "date": "2024-05-22"
+      },
+      {
+        "id": 22,
+        "name": "Sofia Lash",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas están encantadas. No lastima al retirar y adhiere muy bien.",
+        "date": "2024-05-18"
+      },
+      {
+        "id": 23,
+        "name": "Valentina Mendez",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque a veces se pega un poco fuerte. Pero funciona bien.",
+        "date": "2024-05-14"
+      },
+      {
+        "id": 24,
+        "name": "Camila Studio",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas ya no se quejan de irritación. Calidad profesional.",
+        "date": "2024-05-10"
+      },
+      {
+        "id": 25,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "La mejor cinta para profesionales. Mis clientas aman que no deja residuos.",
+        "date": "2024-05-06"
+      },
+      {
+        "id": 26,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "¡Increíble! No lastima al retirar y adhiere muy bien. Muy profesional.",
+        "date": "2024-05-02"
+      },
+      {
+        "id": 27,
+        "name": "Carla Sofia",
+        "rating": 4,
+        "comment": "Muy buena cinta, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-04-28"
+      },
+      {
+        "id": 28,
+        "name": "Lash Queen Elena",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis clientas no se quejan de irritación. La recomiendo al 100%.",
+        "date": "2024-04-24"
+      },
+      {
+        "id": 29,
+        "name": "Isabella Ruiz",
+        "rating": 5,
+        "comment": "Excelente calidad. No deja residuos y es súper suave con la piel. Muy profesional.",
+        "date": "2024-04-20"
+      },
+      {
+        "id": 30,
+        "name": "Sofia Mendez",
+        "rating": 5,
+        "comment": "¡Increíble! Mis clientas están encantadas. No lastima al retirar y adhiere muy bien.",
+        "date": "2024-04-16"
       }
     ]
   },
@@ -142,7 +611,149 @@
     "availability": "100 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo.",
     "category": "Profesional",
-    "image": "/images/products/GLUE STICKER.png"
+    "image": "/images/products/GLUE STICKER.png",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "María González",
+        "rating": 5,
+        "comment": "¡Increíble! Mi estación de trabajo se ve súper profesional. Mis clientas lo notan.",
+        "date": "2024-08-14"
+      },
+      {
+        "id": 2,
+        "name": "Ana Lash Studio",
+        "rating": 5,
+        "comment": "Perfecto para mantener todo organizado. Mis clientas aman ver mi estación tan ordenada.",
+        "date": "2024-08-10"
+      },
+      {
+        "id": 3,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-08-06"
+      },
+      {
+        "id": 4,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecto! Mi estación se ve súper profesional. Mis clientas están encantadas.",
+        "date": "2024-08-02"
+      },
+      {
+        "id": 5,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "Excelente para mantener todo organizado. Mis clientas lo notan inmediatamente.",
+        "date": "2024-07-28"
+      },
+      {
+        "id": 6,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Increíble! Mi estación de trabajo se ve súper profesional. Lo recomiendo.",
+        "date": "2024-07-24"
+      },
+      {
+        "id": 7,
+        "name": "Camila Lash",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más resistente. Pero funciona bien.",
+        "date": "2024-07-20"
+      },
+      {
+        "id": 8,
+        "name": "Lash Queen Studio",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas aman ver mi estación tan ordenada. Muy profesional.",
+        "date": "2024-07-16"
+      },
+      {
+        "id": 9,
+        "name": "Valentina Mendez",
+        "rating": 5,
+        "comment": "Excelente para mantener todo organizado. Mis clientas están encantadas.",
+        "date": "2024-07-12"
+      },
+      {
+        "id": 10,
+        "name": "María José",
+        "rating": 5,
+        "comment": "¡Increíble! Mi estación de trabajo se ve súper profesional. Lo recomiendo al 100%.",
+        "date": "2024-07-08"
+      },
+      {
+        "id": 11,
+        "name": "Ana Sofia",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-07-04"
+      },
+      {
+        "id": 12,
+        "name": "Carla Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas aman ver mi estación tan ordenada. Muy profesional.",
+        "date": "2024-06-30"
+      },
+      {
+        "id": 13,
+        "name": "Lash Studio Pro",
+        "rating": 5,
+        "comment": "Excelente para mantener todo organizado. Mis clientas lo notan inmediatamente.",
+        "date": "2024-06-26"
+      },
+      {
+        "id": 14,
+        "name": "Isabella Lash",
+        "rating": 5,
+        "comment": "¡Increíble! Mi estación de trabajo se ve súper profesional. Lo recomiendo.",
+        "date": "2024-06-22"
+      },
+      {
+        "id": 15,
+        "name": "Sofia Elena",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más resistente. Pero funciona bien.",
+        "date": "2024-06-18"
+      },
+      {
+        "id": 16,
+        "name": "Valentina Studio",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas están encantadas con mi estación tan ordenada.",
+        "date": "2024-06-14"
+      },
+      {
+        "id": 17,
+        "name": "Camila Mendez",
+        "rating": 5,
+        "comment": "Excelente para mantener todo organizado. Mis clientas lo notan inmediatamente.",
+        "date": "2024-06-10"
+      },
+      {
+        "id": 18,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! Mi estación de trabajo se ve súper profesional. Muy recomendado.",
+        "date": "2024-06-06"
+      },
+      {
+        "id": 19,
+        "name": "Ana Valentina",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que fuera más resistente. Pero funciona perfecto.",
+        "date": "2024-06-02"
+      },
+      {
+        "id": 20,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfecto! Mis clientas aman ver mi estación tan ordenada. Muy profesional.",
+        "date": "2024-05-28"
+      }
+    ]
   },
   {
     "id": "wash_brush",
@@ -152,7 +763,149 @@
     "availability": "214 disponibles",
     "wholesale_note": "* Consulta nuestros precios de mayoreo",
     "category": "Herramientas",
-    "image": "/images/products/Wash_brush.jpg"
+    "image": "/images/products/Wash_brush.jpg",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! Mis extensiones duran mucho más tiempo. La brocha es súper suave y no las daña.",
+        "date": "2024-08-13"
+      },
+      {
+        "id": 2,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "Perfecta para el cuidado diario. Mis extensiones se ven siempre impecables. Lo recomiendo.",
+        "date": "2024-08-09"
+      },
+      {
+        "id": 3,
+        "name": "Isabella Torres",
+        "rating": 4,
+        "comment": "Muy buena brocha, aunque esperaba que fuera más grande. Pero funciona perfecto.",
+        "date": "2024-08-05"
+      },
+      {
+        "id": 4,
+        "name": "Camila Lash",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis extensiones duran mucho más tiempo. La brocha es súper suave.",
+        "date": "2024-08-01"
+      },
+      {
+        "id": 5,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "Excelente para el cuidado diario. Mis extensiones se ven siempre impecables. Muy recomendada.",
+        "date": "2024-07-27"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Increíble! La brocha es súper suave y no daña mis extensiones. Lo recomiendo al 100%.",
+        "date": "2024-07-23"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy buena brocha, aunque esperaba que fuera más resistente. Pero funciona bien.",
+        "date": "2024-07-19"
+      },
+      {
+        "id": 8,
+        "name": "Lash Queen Studio",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis extensiones duran mucho más tiempo. La brocha es súper suave.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 9,
+        "name": "Valentina Mendez",
+        "rating": 5,
+        "comment": "Excelente para el cuidado diario. Mis extensiones se ven siempre impecables.",
+        "date": "2024-07-11"
+      },
+      {
+        "id": 10,
+        "name": "María José",
+        "rating": 5,
+        "comment": "¡Increíble! La brocha es súper suave y no daña mis extensiones. Muy recomendada.",
+        "date": "2024-07-07"
+      },
+      {
+        "id": 11,
+        "name": "Ana Valentina",
+        "rating": 4,
+        "comment": "Muy buena brocha, aunque esperaba que fuera más grande. Pero funciona perfecto.",
+        "date": "2024-07-03"
+      },
+      {
+        "id": 12,
+        "name": "Carla Ruiz",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis extensiones duran mucho más tiempo. La brocha es súper suave.",
+        "date": "2024-06-29"
+      },
+      {
+        "id": 13,
+        "name": "Lash Studio Pro",
+        "rating": 5,
+        "comment": "Excelente para el cuidado diario. Mis extensiones se ven siempre impecables. Lo recomiendo.",
+        "date": "2024-06-25"
+      },
+      {
+        "id": 14,
+        "name": "Isabella Lash",
+        "rating": 5,
+        "comment": "¡Increíble! La brocha es súper suave y no daña mis extensiones. Muy recomendada.",
+        "date": "2024-06-21"
+      },
+      {
+        "id": 15,
+        "name": "Sofia Elena",
+        "rating": 4,
+        "comment": "Muy buena brocha, aunque esperaba que fuera más resistente. Pero funciona bien.",
+        "date": "2024-06-17"
+      },
+      {
+        "id": 16,
+        "name": "Valentina Studio",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis extensiones duran mucho más tiempo. La brocha es súper suave.",
+        "date": "2024-06-13"
+      },
+      {
+        "id": 17,
+        "name": "Camila Mendez",
+        "rating": 5,
+        "comment": "Excelente para el cuidado diario. Mis extensiones se ven siempre impecables. Muy recomendada.",
+        "date": "2024-06-09"
+      },
+      {
+        "id": 18,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! La brocha es súper suave y no daña mis extensiones. Lo recomiendo al 100%.",
+        "date": "2024-06-05"
+      },
+      {
+        "id": 19,
+        "name": "Ana Elena",
+        "rating": 4,
+        "comment": "Muy buena brocha, aunque esperaba que fuera más grande. Pero funciona perfecto.",
+        "date": "2024-06-01"
+      },
+      {
+        "id": 20,
+        "name": "Carla Valentina",
+        "rating": 5,
+        "comment": "¡Perfecta! Mis extensiones duran mucho más tiempo. La brocha es súper suave.",
+        "date": "2024-05-28"
+      }
+    ]
   },
   {
     "id": "micro_brush",
