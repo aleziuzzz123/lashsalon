@@ -12,19 +12,19 @@ export default function Home() {
       <Hero />
       
       {/* Video Section */}
-      <section className="py-20 bg-gradient-to-br from-warmWhite to-softPink/20">
+      <section className="py-12 md:py-20 bg-gradient-to-br from-warmWhite to-softPink/20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-serif text-charcoal mb-6">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-charcoal mb-4 md:mb-6">
               Descubre nuestra experiencia
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Mira cómo transformamos miradas y creamos belleza única para cada una de nuestras clientas.
             </p>
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <div className="relative aspect-video bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-2xl overflow-hidden group cursor-pointer">
+            <div className="relative aspect-video bg-gradient-to-br from-theme/10 to-themeDark/20 rounded-xl md:rounded-2xl overflow-hidden group cursor-pointer">
               {/* Video Element */}
               <video 
                 className="w-full h-full object-cover"
@@ -41,44 +41,44 @@ export default function Home() {
               </video>
               
               {/* Video Title Overlay */}
-              <div className="absolute bottom-6 left-6 right-6">
-                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4">
-                  <h3 className="text-lg font-serif text-charcoal mb-2">
+              <div className="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6">
+                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3 md:p-4">
+                  <h3 className="text-base md:text-lg font-serif text-charcoal mb-1 md:mb-2">
                     Transformación Completa de Pestañas
                   </h3>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs md:text-sm text-gray-600">
                     Proceso completo desde la consulta hasta el resultado final
                   </p>
                 </div>
               </div>
               
               {/* Decorative Elements */}
-              <div className="absolute top-6 right-6">
-                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                  <Sparkles className="w-6 h-6 text-white" />
+              <div className="absolute top-3 right-3 md:top-6 md:right-6">
+                <div className="w-8 h-8 md:w-12 md:h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <Sparkles className="w-4 h-4 md:w-6 md:h-6 text-white" />
                 </div>
               </div>
               
-              <div className="absolute top-6 left-6">
-                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-white" />
+              <div className="absolute top-3 left-3 md:top-6 md:left-6">
+                <div className="w-8 h-8 md:w-12 md:h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <Heart className="w-4 h-4 md:w-6 md:h-6 text-white" />
                 </div>
               </div>
             </div>
             
             {/* Video Stats */}
-            <div className="mt-8 grid grid-cols-3 gap-6 text-center">
+            <div className="mt-6 md:mt-8 grid grid-cols-3 gap-4 md:gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-theme">500+</div>
-                <div className="text-sm text-gray-600">Clientas satisfechas</div>
+                <div className="text-xl md:text-2xl font-bold text-theme">500+</div>
+                <div className="text-xs md:text-sm text-gray-600">Clientas satisfechas</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-theme">3+</div>
-                <div className="text-sm text-gray-600">Años de experiencia</div>
+                <div className="text-xl md:text-2xl font-bold text-theme">3+</div>
+                <div className="text-xs md:text-sm text-gray-600">Años de experiencia</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-theme">100%</div>
-                <div className="text-sm text-gray-600">Garantía de calidad</div>
+                <div className="text-xl md:text-2xl font-bold text-theme">100%</div>
+                <div className="text-xs md:text-sm text-gray-600">Garantía de calidad</div>
               </div>
             </div>
           </div>

@@ -111,29 +111,29 @@ export function ServiceModal({ service, isOpen, onClose }: ServiceModalProps) {
       />
       
       {/* Modal */}
-      <div className={`relative flex items-center justify-center min-h-screen p-4 transition-all duration-300 ${isVisible ? 'scale-100' : 'scale-95'}`}>
-        <div className="bg-gradient-to-br from-warmWhite via-white to-softPink rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden border border-rose/20">
+      <div className={`relative flex items-center justify-center min-h-screen p-2 md:p-4 transition-all duration-300 ${isVisible ? 'scale-100' : 'scale-95'}`}>
+        <div className="bg-gradient-to-br from-warmWhite via-white to-softPink rounded-2xl md:rounded-3xl shadow-2xl max-w-2xl w-full max-h-[95vh] md:max-h-[90vh] overflow-hidden border border-rose/20">
           {/* Header */}
-          <div className="relative p-8 pb-6">
+          <div className="relative p-4 md:p-8 pb-4 md:pb-6">
             <button
               onClick={onClose}
-              className="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/80 hover:bg-white transition-all duration-200 flex items-center justify-center shadow-lg hover:shadow-xl group"
+              className="absolute top-4 right-4 md:top-6 md:right-6 w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/80 hover:bg-white transition-all duration-200 flex items-center justify-center shadow-lg hover:shadow-xl group"
             >
-              <X className="w-5 h-5 text-gray-600 group-hover:text-rose transition-colors" />
+              <X className="w-4 h-4 md:w-5 md:h-5 text-gray-600 group-hover:text-rose transition-colors" />
             </button>
             
-            <div className="flex items-start gap-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-gold/20 to-rose/20 rounded-2xl flex items-center justify-center">
+            <div className="flex items-start gap-3 md:gap-4">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-gold/20 to-rose/20 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
                 {getServiceIcon(service.category)}
               </div>
-              <div className="flex-1">
-                <div className="text-sm uppercase tracking-widest text-gold font-medium mb-2">
+              <div className="flex-1 min-w-0">
+                <div className="text-xs md:text-sm uppercase tracking-widest text-gold font-medium mb-1 md:mb-2">
                   {service.category}
                 </div>
-                <h2 className="text-3xl font-serif text-charcoal mb-2">
+                <h2 className="text-xl md:text-3xl font-serif text-charcoal mb-1 md:mb-2">
                   {service.name}
                 </h2>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
               </div>
@@ -141,42 +141,42 @@ export function ServiceModal({ service, isOpen, onClose }: ServiceModalProps) {
           </div>
 
           {/* Content */}
-          <div className="px-8 pb-8 space-y-6">
+          <div className="px-4 md:px-8 pb-4 md:pb-8 space-y-4 md:space-y-6 overflow-y-auto max-h-[calc(95vh-200px)] md:max-h-[calc(90vh-200px)]">
             {/* Duration & Price */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gradient-to-r from-cream to-taupe/30 rounded-2xl p-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <Clock className="w-5 h-5 text-gold" />
-                  <span className="font-semibold text-charcoal">Duración</span>
+            <div className="grid grid-cols-2 gap-3 md:gap-4">
+              <div className="bg-gradient-to-r from-cream to-taupe/30 rounded-xl md:rounded-2xl p-3 md:p-4">
+                <div className="flex items-center gap-2 mb-1 md:mb-2">
+                  <Clock className="w-4 h-4 md:w-5 md:h-5 text-gold" />
+                  <span className="font-semibold text-charcoal text-sm md:text-base">Duración</span>
                 </div>
-                <p className="text-2xl font-bold text-gold">~{service.duration_min} min</p>
+                <p className="text-lg md:text-2xl font-bold text-gold">~{service.duration_min} min</p>
               </div>
               
-              <div className="bg-gradient-to-r from-rose/10 to-gold/10 rounded-2xl p-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <Star className="w-5 h-5 text-rose" />
-                  <span className="font-semibold text-charcoal">Precio Total</span>
+              <div className="bg-gradient-to-r from-rose/10 to-gold/10 rounded-xl md:rounded-2xl p-3 md:p-4">
+                <div className="flex items-center gap-2 mb-1 md:mb-2">
+                  <Star className="w-4 h-4 md:w-5 md:h-5 text-rose" />
+                  <span className="font-semibold text-charcoal text-sm md:text-base">Precio Total</span>
                 </div>
-                <p className="text-2xl font-bold text-rose">${service.price_mxn} MXN</p>
+                <p className="text-lg md:text-2xl font-bold text-rose">${service.price_mxn} MXN</p>
               </div>
             </div>
 
             {/* Payment Breakdown */}
-            <div className="bg-gradient-to-r from-sage/10 to-sageLight/20 rounded-2xl p-6">
-              <h3 className="text-lg font-serif text-charcoal mb-4">Desglose de Pago</h3>
-              <div className="space-y-3">
+            <div className="bg-gradient-to-r from-sage/10 to-sageLight/20 rounded-xl md:rounded-2xl p-4 md:p-6">
+              <h3 className="text-base md:text-lg font-serif text-charcoal mb-3 md:mb-4">Desglose de Pago</h3>
+              <div className="space-y-2 md:space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Depósito (30%)</span>
-                  <span className="font-semibold text-gold">${deposit} MXN</span>
+                  <span className="text-gray-600 text-sm md:text-base">Depósito (30%)</span>
+                  <span className="font-semibold text-gold text-sm md:text-base">${deposit} MXN</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Saldo restante</span>
-                  <span className="font-semibold text-charcoal">${balance} MXN</span>
+                  <span className="text-gray-600 text-sm md:text-base">Saldo restante</span>
+                  <span className="font-semibold text-charcoal text-sm md:text-base">${balance} MXN</span>
                 </div>
-                <div className="border-t border-sage/30 pt-3">
+                <div className="border-t border-sage/30 pt-2 md:pt-3">
                   <div className="flex justify-between items-center">
-                    <span className="font-semibold text-charcoal">Total</span>
-                    <span className="text-xl font-bold text-rose">${service.price_mxn} MXN</span>
+                    <span className="font-semibold text-charcoal text-sm md:text-base">Total</span>
+                    <span className="text-lg md:text-xl font-bold text-rose">${service.price_mxn} MXN</span>
                   </div>
                 </div>
               </div>
@@ -184,12 +184,12 @@ export function ServiceModal({ service, isOpen, onClose }: ServiceModalProps) {
 
             {/* Benefits */}
             <div>
-              <h3 className="text-lg font-serif text-charcoal mb-4">¿Qué incluye?</h3>
-              <div className="grid grid-cols-2 gap-3">
+              <h3 className="text-base md:text-lg font-serif text-charcoal mb-3 md:mb-4">¿Qué incluye?</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-3">
                 {getServiceBenefits(service.category).map((benefit, index) => (
-                  <div key={index} className="flex items-center gap-3 p-3 bg-white/60 rounded-xl">
-                    <CheckCircle className="w-5 h-5 text-sage flex-shrink-0" />
-                    <span className="text-sm text-gray-700">{benefit}</span>
+                  <div key={index} className="flex items-center gap-2 md:gap-3 p-2 md:p-3 bg-white/60 rounded-lg md:rounded-xl">
+                    <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-sage flex-shrink-0" />
+                    <span className="text-xs md:text-sm text-gray-700">{benefit}</span>
                   </div>
                 ))}
               </div>
@@ -203,17 +203,17 @@ export function ServiceModal({ service, isOpen, onClose }: ServiceModalProps) {
             )}
 
             {/* CTA Buttons */}
-            <div className="flex gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-4">
               <Link
                 href={`/book?service=${service.id}`}
-                className="flex-1 btn btn-primary text-center py-4 text-lg font-semibold"
+                className="flex-1 btn btn-primary text-center py-3 md:py-4 text-base md:text-lg font-semibold"
                 onClick={onClose}
               >
                 Reservar Ahora
               </Link>
               <button
                 onClick={onClose}
-                className="px-8 py-4 border-2 border-gold text-gold rounded-2xl hover:bg-gold hover:text-white transition-all duration-300 font-semibold"
+                className="px-6 md:px-8 py-3 md:py-4 border-2 border-gold text-gold rounded-xl md:rounded-2xl hover:bg-gold hover:text-white transition-all duration-300 font-semibold text-sm md:text-base"
               >
                 Cerrar
               </button>

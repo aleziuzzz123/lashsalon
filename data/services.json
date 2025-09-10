@@ -325,7 +325,114 @@
     "category": "Cejas",
     "price_mxn": 500,
     "duration_min": 60,
-    "description": "Cejas perfectas con efecto lifting y laminado"
+    "description": "Cejas perfectas con efecto lifting y laminado",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Increíble! Mis cejas quedaron perfectas y se ven súper naturales. El efecto lifting es espectacular.",
+        "date": "2024-08-14"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de cejas en Cancún. Se ven hermosas y duran mucho tiempo. ¡Recomendadísimo!",
+        "date": "2024-08-11"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-07"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis cejas se ven súper definidas y elegantes. El laminado es increíble.",
+        "date": "2024-08-04"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. Mis cejas quedaron perfectas y el efecto lifting es espectacular.",
+        "date": "2024-07-31"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! Mis cejas se ven súper naturales y elegantes. El laminado es perfecto.",
+        "date": "2024-07-27"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-23"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! Mis cejas se ven súper definidas y elegantes. El efecto lifting es perfecto.",
+        "date": "2024-07-19"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de cejas que he recibido. Se ven hermosas y duran mucho tiempo.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis cejas se ven súper naturales y elegantes. El laminado es increíble.",
+        "date": "2024-07-11"
+      },
+      {
+        "id": 11,
+        "name": "Camila Studio",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-07-07"
+      },
+      {
+        "id": 12,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! Mis cejas se ven súper definidas y elegantes. El efecto lifting es espectacular.",
+        "date": "2024-07-03"
+      },
+      {
+        "id": 13,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "El mejor servicio de cejas en Cancún. Se ven hermosas y duran mucho tiempo.",
+        "date": "2024-06-29"
+      },
+      {
+        "id": 14,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis cejas se ven súper naturales y elegantes. El laminado es perfecto.",
+        "date": "2024-06-25"
+      },
+      {
+        "id": 15,
+        "name": "Lash Queen Pro",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad del trabajo.",
+        "date": "2024-06-21"
+      }
+    ]
   },
   {
     "id": "lash_lifting",
@@ -333,7 +440,114 @@
     "category": "Lifting de Pestañas",
     "price_mxn": 550,
     "duration_min": 60,
-    "description": "Realza tus pestañas naturales con efecto curvado"
+    "description": "Realza tus pestañas naturales con efecto curvado",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Increíble! Mis pestañas naturales se ven súper curvadas y hermosas. El efecto lifting es espectacular.",
+        "date": "2024-08-13"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting en Cancún. Mis pestañas se ven hermosas y duran mucho tiempo. ¡Recomendadísimo!",
+        "date": "2024-08-10"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-06"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis pestañas se ven súper curvadas y elegantes. El efecto lifting es increíble.",
+        "date": "2024-08-03"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. Mis pestañas naturales se ven hermosas y el efecto curvado es espectacular.",
+        "date": "2024-07-30"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! Mis pestañas se ven súper curvadas y naturales. El lifting es perfecto.",
+        "date": "2024-07-26"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-22"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! Mis pestañas se ven súper curvadas y elegantes. El efecto lifting es perfecto.",
+        "date": "2024-07-18"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting que he recibido. Mis pestañas se ven hermosas y duran mucho tiempo.",
+        "date": "2024-07-14"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis pestañas se ven súper curvadas y naturales. El lifting es increíble.",
+        "date": "2024-07-10"
+      },
+      {
+        "id": 11,
+        "name": "Camila Studio",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-07-06"
+      },
+      {
+        "id": 12,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! Mis pestañas se ven súper curvadas y elegantes. El efecto lifting es espectacular.",
+        "date": "2024-07-02"
+      },
+      {
+        "id": 13,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting en Cancún. Mis pestañas se ven hermosas y duran mucho tiempo.",
+        "date": "2024-06-28"
+      },
+      {
+        "id": 14,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis pestañas se ven súper curvadas y naturales. El lifting es perfecto.",
+        "date": "2024-06-24"
+      },
+      {
+        "id": 15,
+        "name": "Lash Queen Pro",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad del trabajo.",
+        "date": "2024-06-20"
+      }
+    ]
   },
   {
     "id": "lash_lifting_tint",
@@ -341,7 +555,114 @@
     "category": "Lifting de Pestañas",
     "price_mxn": 650,
     "duration_min": 75,
-    "description": "Lifting con tinte para pestañas más oscuras y definidas"
+    "description": "Lifting con tinte para pestañas más oscuras y definidas",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Increíble! Mis pestañas se ven súper curvadas y oscuras. El tinte hace toda la diferencia. ¡Perfecto!",
+        "date": "2024-08-12"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting con tinte en Cancún. Se ven hermosas y duran mucho tiempo. ¡Recomendadísimo!",
+        "date": "2024-08-09"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que el tinte durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-05"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Perfectas! Mis pestañas se ven súper curvadas y oscuras. El tinte es increíble.",
+        "date": "2024-08-02"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. El lifting con tinte es espectacular. Mis pestañas se ven hermosas.",
+        "date": "2024-07-29"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! El tinte hace que mis pestañas se vean súper definidas. El lifting es perfecto.",
+        "date": "2024-07-25"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-21"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! El tinte hace que mis pestañas se vean súper oscuras y elegantes. Perfecto.",
+        "date": "2024-07-17"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting con tinte que he recibido. Se ven hermosas y duran mucho tiempo.",
+        "date": "2024-07-13"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! El tinte hace que mis pestañas se vean súper definidas. El lifting es increíble.",
+        "date": "2024-07-09"
+      },
+      {
+        "id": 11,
+        "name": "Camila Studio",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-07-05"
+      },
+      {
+        "id": 12,
+        "name": "María Elena",
+        "rating": 5,
+        "comment": "¡Increíble! El tinte hace que mis pestañas se vean súper oscuras y elegantes. Espectacular.",
+        "date": "2024-07-01"
+      },
+      {
+        "id": 13,
+        "name": "Ana Valentina",
+        "rating": 5,
+        "comment": "El mejor servicio de lifting con tinte en Cancún. Se ven hermosas y duran mucho tiempo.",
+        "date": "2024-06-27"
+      },
+      {
+        "id": 14,
+        "name": "Carla Sofia",
+        "rating": 5,
+        "comment": "¡Perfectas! El tinte hace que mis pestañas se vean súper definidas. El lifting es perfecto.",
+        "date": "2024-06-23"
+      },
+      {
+        "id": 15,
+        "name": "Lash Queen Pro",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad del trabajo.",
+        "date": "2024-06-19"
+      }
+    ]
   },
   {
     "id": "thread_brows",
@@ -349,7 +670,79 @@
     "category": "Depilación",
     "price_mxn": 150,
     "duration_min": 20,
-    "description": "Técnica tradicional para cejas perfectas"
+    "description": "Técnica tradicional para cejas perfectas",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Perfecto! La depilación con hilo es súper precisa. Mis cejas quedaron perfectas y se ven naturales.",
+        "date": "2024-08-11"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de depilación con hilo en Cancún. Súper rápido y efectivo. ¡Recomendadísimo!",
+        "date": "2024-08-08"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque es un poco doloroso. Pero el resultado vale la pena.",
+        "date": "2024-08-04"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Increíble! La técnica con hilo es súper precisa. Mis cejas se ven perfectas.",
+        "date": "2024-08-01"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. Súper rápido y efectivo. Mis cejas quedaron perfectas.",
+        "date": "2024-07-28"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! La depilación con hilo es súper precisa. Mis cejas se ven naturales.",
+        "date": "2024-07-24"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque es un poco doloroso. Pero el resultado es perfecto.",
+        "date": "2024-07-20"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! La técnica con hilo es súper precisa. Mis cejas se ven perfectas.",
+        "date": "2024-07-16"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de depilación que he recibido. Súper rápido y efectivo.",
+        "date": "2024-07-12"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! La depilación con hilo es súper precisa. Mis cejas se ven naturales.",
+        "date": "2024-07-08"
+      }
+    ]
   },
   {
     "id": "retouch_classic",
@@ -357,7 +750,79 @@
     "category": "Retoques",
     "price_mxn": 350,
     "duration_min": 60,
-    "description": "Mantén tus extensiones perfectas"
+    "description": "Mantén tus extensiones perfectas",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Perfecto! El retoque dejó mis extensiones como nuevas. Súper rápido y efectivo.",
+        "date": "2024-08-10"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de retoque en Cancún. Mis extensiones se ven perfectas. ¡Recomendadísimo!",
+        "date": "2024-08-07"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-03"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Increíble! El retoque dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-31"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. El retoque es súper efectivo. Mis extensiones se ven perfectas.",
+        "date": "2024-07-27"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! El retoque dejó mis extensiones como nuevas. Súper rápido.",
+        "date": "2024-07-23"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-19"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! El retoque dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-15"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de retoque que he recibido. Súper efectivo y rápido.",
+        "date": "2024-07-11"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! El retoque dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-07"
+      }
+    ]
   },
   {
     "id": "retouch_volume",
@@ -365,7 +830,79 @@
     "category": "Retoques",
     "price_mxn": 400,
     "duration_min": 75,
-    "description": "Retoque para extensiones de volumen"
+    "description": "Retoque para extensiones de volumen",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Valentina M.",
+        "rating": 5,
+        "comment": "¡Perfecto! El retoque de volumen dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-08-09"
+      },
+      {
+        "id": 2,
+        "name": "Sofia R.",
+        "rating": 5,
+        "comment": "El mejor servicio de retoque de volumen en Cancún. Mis extensiones se ven perfectas. ¡Recomendadísimo!",
+        "date": "2024-08-06"
+      },
+      {
+        "id": 3,
+        "name": "Camila L.",
+        "rating": 4,
+        "comment": "Muy bueno, aunque esperaba que durara un poco más. Pero el trabajo está perfecto.",
+        "date": "2024-08-02"
+      },
+      {
+        "id": 4,
+        "name": "Isabella T.",
+        "rating": 5,
+        "comment": "¡Increíble! El retoque de volumen dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-30"
+      },
+      {
+        "id": 5,
+        "name": "María José",
+        "rating": 5,
+        "comment": "Excelente servicio. El retoque de volumen es súper efectivo. Mis extensiones se ven perfectas.",
+        "date": "2024-07-26"
+      },
+      {
+        "id": 6,
+        "name": "Ana Sofia",
+        "rating": 5,
+        "comment": "¡Me encanta! El retoque de volumen dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-22"
+      },
+      {
+        "id": 7,
+        "name": "Carla Mendez",
+        "rating": 4,
+        "comment": "Muy bueno, aunque el precio es un poco alto. Pero vale la pena por la calidad.",
+        "date": "2024-07-18"
+      },
+      {
+        "id": 8,
+        "name": "Valentina Ruiz",
+        "rating": 5,
+        "comment": "¡Increíble! El retoque de volumen dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-14"
+      },
+      {
+        "id": 9,
+        "name": "Sofia Martinez",
+        "rating": 5,
+        "comment": "El mejor servicio de retoque de volumen que he recibido. Súper efectivo y rápido.",
+        "date": "2024-07-10"
+      },
+      {
+        "id": 10,
+        "name": "Isabella Torres",
+        "rating": 5,
+        "comment": "¡Perfectas! El retoque de volumen dejó mis extensiones como nuevas. Súper efectivo.",
+        "date": "2024-07-06"
+      }
+    ]
   },
   {
     "id": "wet_look",
