@@ -10,9 +10,9 @@ export const metadata = {
   title: "THE LASH & CO — Cancún",
   description: "Reserva servicios de pestañas y compra productos de belleza.",
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: '/images/logo/lashlogo.png',
+    shortcut: '/images/logo/lashlogo.png',
+    apple: '/images/logo/lashlogo.png',
   },
 };
 

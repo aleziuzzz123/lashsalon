@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export function Footer() {
@@ -9,7 +10,15 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <h3 className="font-serif text-2xl text-charcoal mb-4">THE LASH & CO</h3>
+            <div className="mb-4">
+              <Image 
+                src="/images/logo/lashlogo.png" 
+                alt="THE LASH & CO" 
+                width={150} 
+                height={75} 
+                className="h-16 w-auto"
+              />
+            </div>
             <p className="text-gray-600 mb-6">
               Transformamos miradas y creamos belleza única para cada una de nuestras clientas en Cancún.
             </p>

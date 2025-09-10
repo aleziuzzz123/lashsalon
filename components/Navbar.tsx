@@ -1,6 +1,7 @@
 
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ShoppingBag, CalendarDays, Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
@@ -22,7 +23,16 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-taupe/30">
       <div className="container flex items-center justify-between h-16">
-        <Link href="/" className="font-serif text-2xl">THE LASH & CO</Link>
+        <Link href="/" className="flex items-center">
+          <Image 
+            src="/images/logo/lashlogo.png" 
+            alt="THE LASH & CO" 
+            width={120} 
+            height={60} 
+            className="h-12 w-auto"
+            priority
+          />
+        </Link>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6">
