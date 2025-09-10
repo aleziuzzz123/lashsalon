@@ -22,14 +22,14 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-taupe/30">
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-20">
         <Link href="/" className="flex items-center">
           <Image 
             src="/images/logo/lashlogo.png" 
             alt="THE LASH & CO" 
-            width={120} 
-            height={60} 
-            className="h-12 w-auto"
+            width={360} 
+            height={180} 
+            className="h-36 w-auto"
             priority
           />
         </Link>

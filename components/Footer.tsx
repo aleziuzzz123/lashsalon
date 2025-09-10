@@ -14,9 +14,9 @@ export function Footer() {
               <Image 
                 src="/images/logo/lashlogo.png" 
                 alt="THE LASH & CO" 
-                width={150} 
-                height={75} 
-                className="h-16 w-auto"
+                width={450} 
+                height={225} 
+                className="h-48 w-auto"
               />
             </div>
             <p className="text-gray-600 mb-6">
