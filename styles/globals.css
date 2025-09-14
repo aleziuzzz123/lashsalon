@@ -3,26 +3,174 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles */
-:root { color-scheme: light; }
-body { @apply bg-warmWhite text-charcoal font-sans; }
-.container { @apply max-w-6xl mx-auto px-4; }
-.btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 font-medium transition-all duration-300 text-sm; }
-.btn-primary { @apply bg-theme text-white hover:bg-themeDark hover:shadow-md transform hover:-translate-y-0.5; }
-.btn-outline { @apply border border-theme text-theme hover:bg-theme hover:text-white hover:border-theme; }
-.card { @apply bg-gradient-to-br from-warmWhite to-softPink backdrop-blur rounded-2xl border border-rose/20 shadow-soft hover:shadow-lg transition-all duration-300; }
-.section { @apply py-16; }
-h1,h2,h3,h4 { @apply font-serif text-charcoal; }
-h1 { @apply text-4xl md:text-5xl; }
-h2 { @apply text-3xl md:text-4xl; }
-small.helper { @apply text-sm text-warmGray; }
+/* ===== CSS CUSTOM PROPERTIES ===== */
+:root {
+  /* Theme Colors */
+  --color-theme: #a26866;
+  --color-theme-light: #B87A7A;
+  --color-theme-dark: #8B5A5A;
+  --color-theme-alpha: rgba(162, 104, 102, 0.1);
+  
+  /* Neutral Colors */
+  --color-charcoal: #2B2B2B;
+  --color-warm-white: #FEFCFB;
+  --color-warm-gray: #8B7D6B;
+  
+  /* Accent Colors */
+  --color-rose: #E8B4B8;
+  --color-blush: #F4E4E6;
+  --color-soft-pink: #F7E7E7;
+  --color-deep-gold: #B8860B;
+  
+  /* Shadows */
+  --shadow-soft: 0 10px 30px rgba(0,0,0,0.06);
+  --shadow-medium: 0 8px 32px rgba(0,0,0,0.08);
+  --shadow-strong: 0 20px 40px rgba(0,0,0,0.12);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease-out;
+  --transition-normal: 0.3s ease-out;
+  --transition-slow: 0.5s ease-out;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+  
+  color-scheme: light;
+}
 
-/* Enhanced feminine styling */
-.gradient-bg { @apply bg-gradient-to-br from-softPink via-warmWhite to-blush; }
-.accent-gold { @apply text-deepGold; }
-.soft-shadow { @apply shadow-[0_8px_32px_rgba(0,0,0,0.08)]; }
+/* ===== BASE STYLES ===== */
+* {
+  box-sizing: border-box;
+}
 
-/* Utility classes */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-warmWhite text-charcoal font-sans antialiased;
+  font-feature-settings: "rlig" 1, "calt" 1;
+  line-height: 1.6;
+}
+
+/* ===== TYPOGRAPHY SYSTEM ===== */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif text-charcoal font-semibold leading-tight;
+}
+
+h1 {
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+}
+
+h2 {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+}
+
+h3 {
+  @apply text-xl sm:text-2xl md:text-3xl;
+}
+
+h4 {
+  @apply text-lg sm:text-xl md:text-2xl;
+}
+
+p {
+  @apply text-base md:text-lg leading-relaxed;
+}
+
+small.helper {
+  @apply text-sm text-warmGray;
+}
+
+/* ===== LAYOUT COMPONENTS ===== */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-12 md:py-16 lg:py-20;
+}
+
+.grid-responsive {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8;
+}
+
+/* ===== BUTTON SYSTEM ===== */
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 font-medium transition-all duration-300 text-sm focus:outline-none focus:ring-2 focus:ring-offset-2;
+  min-height: 2.5rem;
+}
+
+.btn-primary {
+  @apply bg-theme text-white hover:bg-themeDark hover:shadow-md focus:ring-theme;
+  transform: translateY(0);
+  transition: var(--transition-normal);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-medium);
+}
+
+.btn-outline {
+  @apply border border-theme text-theme hover:bg-theme hover:text-white hover:border-theme focus:ring-theme;
+  transition: var(--transition-normal);
+}
+
+.btn-outline:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--color-theme-alpha);
+}
+
+.btn-ghost {
+  @apply text-theme hover:bg-themeAlpha hover:text-themeDark focus:ring-theme;
+}
+
+/* ===== CARD SYSTEM ===== */
+.card {
+  @apply bg-gradient-to-br from-warmWhite to-softPink backdrop-blur rounded-2xl border border-rose/20 shadow-soft transition-all duration-300;
+  transition: var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 169, 105, 0.3);
+  box-shadow: var(--shadow-strong);
+}
+
+.card-interactive {
+  @apply card cursor-pointer;
+}
+
+.card-interactive:hover {
+  @apply shadow-lg;
+  transform: translateY(-4px) scale(1.02);
+}
+
+/* ===== UTILITY CLASSES ===== */
+.gradient-bg {
+  @apply bg-gradient-to-br from-softPink via-warmWhite to-blush;
+}
+
+.accent-gold {
+  @apply text-deepGold;
+}
+
+.soft-shadow {
+  box-shadow: var(--shadow-medium);
+}
+
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -30,7 +178,47 @@ small.helper { @apply text-sm text-warmGray; }
   overflow: hidden;
 }
 
-/* Modal animations */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes modalFadeIn {
   from {
     opacity: 0;
@@ -53,30 +241,67 @@ small.helper { @apply text-sm text-warmGray; }
   }
 }
 
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 0.4s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
 .modal-enter {
-  animation: modalFadeIn 0.3s ease-out;
+  animation: modalFadeIn var(--transition-normal);
 }
 
 .modal-exit {
-  animation: modalFadeOut 0.3s ease-in;
+  animation: modalFadeOut var(--transition-normal);
 }
 
-/* Enhanced button styles */
-.btn-outline {
-  @apply border border-theme text-theme hover:bg-theme hover:text-white hover:border-theme transition-all duration-300;
+/* ===== ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
 }
 
-.btn-outline:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(162, 104, 102, 0.2);
+/* Focus styles for keyboard navigation */
+.focus-visible {
+  @apply outline-none ring-2 ring-theme ring-offset-2;
 }
 
-/* Card hover effects */
-.card {
-  @apply bg-gradient-to-br from-warmWhite to-softPink backdrop-blur rounded-2xl border border-rose/20 shadow-soft hover:shadow-lg transition-all duration-300;
+/* ===== RESPONSIVE UTILITIES ===== */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+  
+  .section {
+    @apply py-8;
+  }
+  
+  h1 {
+    @apply text-2xl;
+  }
+  
+  h2 {
+    @apply text-xl;
+  }
 }
 
-.card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(201, 169, 105, 0.3);
+/* ===== DARK MODE SUPPORT (Future Enhancement) ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-charcoal: #F5F5F5;
+    --color-warm-white: #1A1A1A;
+  }
 }
