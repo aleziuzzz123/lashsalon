@@ -11,7 +11,7 @@ const getServiceImage = (serviceId: string) => {
   const imageMap: { [key: string]: string } = {
     'classic_set': 'Extensiones Clásicas.png',
     'hybrid_set': 'Extensiones Híbridas.png',
-    'volume_set': ' Extensiones Volumen.png',
+    'volume_set': ' Extensiones Volumen.png', // Note: has leading space in filename
     'mega_volume': 'Extensiones Mega Volumen.png',
     'wet_look': 'Extensiones Wet Look.png',
     'kim_k': 'Extensiones Kim K.png',
@@ -86,6 +86,10 @@ export function ServiceGrid({limit}:{limit?:number}){
                 src={`/images/services/${getServiceImage(s.id)}`}
                 alt={s.name}
                 className="w-full h-full object-cover"
+                onError={(e) => {
+                  // Fallback to default image if the specific service image fails to load
+                  e.currentTarget.src = '/images/services/Extensiones de Pestañas.png';
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div className="absolute top-3 right-3">
