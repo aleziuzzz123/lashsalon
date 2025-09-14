@@ -1,11 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
-  },
-  
   // Image optimization
   images: {
     formats: ['image/webp', 'image/avif'],
@@ -63,31 +57,6 @@ const nextConfig = {
         ],
       },
     ];
-  },
-  
-  // Webpack optimizations
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    // Optimize bundle splitting
-    if (!dev && !isServer) {
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        cacheGroups: {
-          vendor: {
-            test: /[\\/]node_modules[\\/]/,
-            name: 'vendors',
-            chunks: 'all',
-          },
-          common: {
-            name: 'common',
-            minChunks: 2,
-            chunks: 'all',
-            enforce: true,
-          },
-        },
-      };
-    }
-    
-    return config;
   },
 };
 
