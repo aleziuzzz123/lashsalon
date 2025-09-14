@@ -163,15 +163,15 @@ export function Hero() {
 
           {/* Right Column - Image Carousel */}
           <div className="flex justify-center lg:justify-end mt-8 lg:mt-0">
-            <div className="relative w-[390px] h-[390px] max-w-[390px] max-h-[390px]">
+            <div className="relative w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] lg:w-[500px] lg:h-[500px] max-w-[500px] max-h-[500px]">
               {/* Main Image Card */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-2 border-gold/20 bg-white">
                 <img
                   src={heroImages[currentImageIndex].src}
                   alt={heroImages[currentImageIndex].alt}
                   className="w-full h-full object-cover"
-                  width={390}
-                  height={390}
+                  width={500}
+                  height={500}
                 />
                 
                 {/* Overlay with service info */}
