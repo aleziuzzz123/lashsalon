@@ -11,46 +11,60 @@ export function Hero() {
 
   const heroImages = [
     {
-      src: "/images/services/Extensiones Clásicas.png",
-      alt: "Extensiones Clásicas",
-      title: "Extensiones Clásicas",
-      description: "Look natural y elegante",
+      src: "/images/eyes/390X390px_1.png",
+      alt: "Extensiones de Pestañas - Look Natural",
+      title: "Extensiones Naturales",
+      description: "Look elegante y sofisticado",
       price: "$650 MXN"
     },
     {
-      src: "/images/services/Extensiones Híbridas.png",
-      alt: "Extensiones Híbridas",
+      src: "/images/eyes/390X390px_2.png",
+      alt: "Extensiones de Pestañas - Volumen Medio",
       title: "Extensiones Híbridas",
       description: "Perfecto balance natural-drama",
       price: "$700 MXN"
     },
     {
-      src: "/images/services/ Extensiones Volumen.png",
-      alt: "Extensiones Volumen",
+      src: "/images/eyes/390X390px_3.png",
+      alt: "Extensiones de Pestañas - Volumen Alto",
       title: "Extensiones Volumen",
       description: "Máximo impacto y volumen",
       price: "$800 MXN"
     },
     {
-      src: "/images/services/Extensiones Mega Volumen.png",
-      alt: "Extensiones Mega Volumen",
+      src: "/images/eyes/390X390px_4.png",
+      alt: "Extensiones de Pestañas - Mega Volumen",
       title: "Extensiones Mega Volumen",
       description: "Drama y glamour extremo",
       price: "$900 MXN"
     },
     {
-      src: "/images/services/Extensiones Wet Look.png",
-      alt: "Extensiones Wet Look",
+      src: "/images/eyes/390X390px_5.png",
+      alt: "Extensiones de Pestañas - Wet Look",
       title: "Extensiones Wet Look",
       description: "Efecto húmedo y brillante",
       price: "$750 MXN"
     },
     {
-      src: "/images/services/Extensiones Kim K.png",
-      alt: "Extensiones Kim K",
-      title: "Extensiones Kim K",
-      description: "Estilo icónico y llamativo",
+      src: "/images/eyes/390X390px_6.png",
+      alt: "Extensiones de Pestañas - Cat Eye",
+      title: "Extensiones Cat Eye",
+      description: "Estilo felino y seductor",
       price: "$850 MXN"
+    },
+    {
+      src: "/images/eyes/390X390px_7.png",
+      alt: "Extensiones de Pestañas - Kim K Style",
+      title: "Extensiones Kim K",
+      description: "Estilo icónico y glamuroso",
+      price: "$900 MXN"
+    },
+    {
+      src: "/images/eyes/390X390px_8.png",
+      alt: "Extensiones de Pestañas - Foxy Style",
+      title: "Extensiones Foxy",
+      description: "Mirada cautivadora y sensual",
+      price: "$800 MXN"
     }
   ];
 
