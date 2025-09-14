@@ -23,25 +23,48 @@ export default function BookingWidget(){
   const slots = useMemo(generateSlots, []);
   useEffect(()=>{ setSlot(slots[0]?.value||'') },[slots]);
 
-  async function startCheckout(){
+  function startWhatsAppBooking(){
     setLoading(true);
     try {
       const service = (services as any[]).find(s=>s.id===serviceId)!;
       const deposit = Math.round(service.price_mxn * 0.3);
-      const res = await fetch('/api/mp/create-preference',{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({
-        title: `Depósito ${service.name}`,
-        description: `Reserva ${service.name} ${new Date(slot).toLocaleString()}`,
-        amount_mxn: deposit,
-        booking: { service_id: serviceId, slot }
-      })});
-      const data = await res.json();
-      if(data.init_point){
-        window.location.href = data.init_point;
-      } else if(data.sandbox_init_point){
-        window.location.href = data.sandbox_init_point;
-      } else {
-        alert('No se pudo iniciar el pago.');
-      }
+      const balance = service.price_mxn - deposit;
+      const appointmentDate = new Date(slot).toLocaleString('es-MX', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+
+      // WhatsApp phone number (replace with your salon's WhatsApp number)
+      const whatsappNumber = '529981880825'; // +52 998 188 0825
+      
+      // Create the WhatsApp message
+      const message = `¡Hola! Me gustaría reservar una cita en THE LASH & CO. 🌟
+
+📋 *Detalles de la reserva:*
+• Servicio: ${service.name}
+• Fecha y hora: ${appointmentDate}
+• Precio total: $${service.price_mxn} MXN
+• Depósito (30%): $${deposit} MXN
+• Resto a pagar: $${balance} MXN
+
+💳 *Método de pago:*
+El depósito se puede pagar por transferencia bancaria o en efectivo al llegar.
+
+¿Está disponible esta fecha? ¡Espero su confirmación! 😊`;
+
+      // Encode the message for URL
+      const encodedMessage = encodeURIComponent(message);
+      
+      // Create WhatsApp URL
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      
+      // Open WhatsApp
+      window.open(whatsappUrl, '_blank');
+      
     } finally {
       setLoading(false);
     }
@@ -59,10 +82,10 @@ export default function BookingWidget(){
         {slots.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
       </select>
 
-      <button onClick={startCheckout} disabled={loading} className="btn btn-primary mt-5 w-full">
-        {loading ? 'Redirigiendo...' : 'Apartar con 30%'}
+      <button onClick={startWhatsAppBooking} disabled={loading} className="btn btn-primary mt-5 w-full">
+        {loading ? 'Abriendo WhatsApp...' : 'Reservar por WhatsApp'}
       </button>
-      <p className="mt-3 small helper">Serás redirigida a Mercado Pago para completar el depósito.</p>
+      <p className="mt-3 small helper">Serás redirigida a WhatsApp para confirmar tu reserva y coordinar el pago del depósito.</p>
     </div>
   )
 }
