@@ -1,15 +1,39 @@
 
+'use client';
+
 import Link from "next/link";
 import { Hero } from "@/components/Hero";
 import { ServiceGrid } from "@/components/ServiceGrid";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SalonGallery } from "@/components/SalonGallery";
+import { ServiceModal } from "@/components/ServiceModal";
 import { Star, Heart, Sparkles, Clock, Shield, Users, ArrowRight, CheckCircle, Play } from "lucide-react";
+import { useState } from "react";
+import services from "@/data/services.json";
 
 export default function Home() {
+  const [selectedService, setSelectedService] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleDetailsClick = (service: any) => {
+    setSelectedService(service);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedService(null);
+  };
+
   return (
     <>
       <Hero />
+      
+      <ServiceModal 
+        service={selectedService} 
+        isOpen={isModalOpen} 
+        onClose={handleCloseModal} 
+      />
       
       {/* Video Section */}
       <section className="py-12 md:py-20 bg-gradient-to-br from-warmWhite to-softPink/20">
@@ -214,11 +238,23 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Volumen</h3>
               <p className="text-gray-600 text-sm mb-3">Máximo impacto</p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl font-bold text-theme">$750 MXN</span>
-                <Link href="/book?service=volume_set" className="btn btn-primary text-sm px-4 py-2">
+                <div className="text-right">
+                  <div className="text-xs text-gray-500">Depósito 30%</div>
+                  <div className="text-sm font-semibold">$225 MXN</div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <Link href="/book?service=volume_set" className="btn btn-primary flex-1 text-center text-sm px-3 py-2">
                   Reservar
                 </Link>
+                <button 
+                  onClick={() => handleDetailsClick((services as any[]).find(s => s.id === 'volume_set'))}
+                  className="btn btn-outline text-sm px-3 py-2 hover:bg-theme hover:text-white transition-all duration-300"
+                >
+                  Detalles
+                </button>
               </div>
             </div>
 
@@ -239,11 +275,23 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Mega Volumen</h3>
               <p className="text-gray-600 text-sm mb-3">Look más dramático</p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl font-bold text-theme">$890 MXN</span>
-                <Link href="/book?service=mega_volume" className="btn btn-primary text-sm px-4 py-2">
+                <div className="text-right">
+                  <div className="text-xs text-gray-500">Depósito 30%</div>
+                  <div className="text-sm font-semibold">$267 MXN</div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <Link href="/book?service=mega_volume" className="btn btn-primary flex-1 text-center text-sm px-3 py-2">
                   Reservar
                 </Link>
+                <button 
+                  onClick={() => handleDetailsClick((services as any[]).find(s => s.id === 'mega_volume'))}
+                  className="btn btn-outline text-sm px-3 py-2 hover:bg-theme hover:text-white transition-all duration-300"
+                >
+                  Detalles
+                </button>
               </div>
             </div>
 
@@ -264,11 +312,23 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Wet Look</h3>
               <p className="text-gray-600 text-sm mb-3">Efecto mojado fresco</p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl font-bold text-theme">$790 MXN</span>
-                <Link href="/book?service=wet_look" className="btn btn-primary text-sm px-4 py-2">
+                <div className="text-right">
+                  <div className="text-xs text-gray-500">Depósito 30%</div>
+                  <div className="text-sm font-semibold">$237 MXN</div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <Link href="/book?service=wet_look" className="btn btn-primary flex-1 text-center text-sm px-3 py-2">
                   Reservar
                 </Link>
+                <button 
+                  onClick={() => handleDetailsClick((services as any[]).find(s => s.id === 'wet_look'))}
+                  className="btn btn-outline text-sm px-3 py-2 hover:bg-theme hover:text-white transition-all duration-300"
+                >
+                  Detalles
+                </button>
               </div>
             </div>
 
@@ -289,11 +349,23 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif text-charcoal mb-2 group-hover:text-theme transition-colors">Extensiones Kim K</h3>
               <p className="text-gray-600 text-sm mb-3">Estilo Kardashian</p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl font-bold text-theme">$790 MXN</span>
-                <Link href="/book?service=kim_k" className="btn btn-primary text-sm px-4 py-2">
+                <div className="text-right">
+                  <div className="text-xs text-gray-500">Depósito 30%</div>
+                  <div className="text-sm font-semibold">$237 MXN</div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <Link href="/book?service=kim_k" className="btn btn-primary flex-1 text-center text-sm px-3 py-2">
                   Reservar
                 </Link>
+                <button 
+                  onClick={() => handleDetailsClick((services as any[]).find(s => s.id === 'kim_k'))}
+                  className="btn btn-outline text-sm px-3 py-2 hover:bg-theme hover:text-white transition-all duration-300"
+                >
+                  Detalles
+                </button>
               </div>
             </div>
           </div>
