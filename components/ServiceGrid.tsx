@@ -61,6 +61,7 @@ const getServiceIcon = (category: string) => {
 };
 
 export function ServiceGrid({limit}:{limit?:number}){
+  // Ensure all services have both Reservar and Detalles buttons
   const list = limit ? services.slice(0,limit) : services;
   const [selectedService, setSelectedService] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
